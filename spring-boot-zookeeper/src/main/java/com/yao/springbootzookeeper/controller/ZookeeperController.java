@@ -24,14 +24,12 @@ import lombok.extern.slf4j.Slf4j;
  * @see com.yao.springbootzookeeper.controller
  */
 @RestController
-@RequestMapping("test")
+@RequestMapping("zookeeper")
 @Slf4j
-public class TestController {
+public class ZookeeperController {
 
     @Resource
     ZookeeperClient zookeeperClient;
-    @Resource
-    private RegistryCenterProperties registryCenterProperties;
 
 
     @RequestMapping("create")
@@ -40,10 +38,10 @@ public class TestController {
         JSONObject data = jsonObject.getJSONObject("data");
         String path = jsonObject.getString("path");
         Map result = new HashMap(16);
-        log.info(registryCenterProperties.getListenerNode()+path);
+        log.info(path);
         try {
-            zookeeperClient.createNode(registryCenterProperties.getListenerNode()+path, data.toJSONString(), CreateMode.PERSISTENT);
-            log.info("创建节点"+registryCenterProperties.getListenerNode()+path+",写入数据"+data.toJSONString()+",创建节点为"+CreateMode.PERSISTENT);
+            zookeeperClient.createNode(path, data.toJSONString(), CreateMode.PERSISTENT);
+            log.info("创建节点"+path+",写入数据"+data.toJSONString()+",创建节点为"+CreateMode.PERSISTENT);
             result.put("code","0000");
             result.put("desc","创建节点成功");
         } catch (Exception e) {
@@ -59,10 +57,10 @@ public class TestController {
         JSONObject data = jsonObject.getJSONObject("data");
         String path = jsonObject.getString("path");
         Map result = new HashMap(16);
-        log.info(registryCenterProperties.getListenerNode()+path);
+        log.info(path);
         try {
-            zookeeperClient.updateNode(registryCenterProperties.getListenerNode()+path, data.toJSONString());
-            log.info("更新节点"+registryCenterProperties.getListenerNode()+path+",更新数据"+data.toJSONString()+",更新节点为"+ZookeeperClient.NodeTypeEnum.LISTENERNODE);
+            zookeeperClient.updateNode(path, data.toJSONString());
+            log.info("更新节点"+path+",更新数据"+data.toJSONString()+",更新节点为"+ZookeeperClient.NodeTypeEnum.LISTENERNODE);
             result.put("code","0000");
             result.put("desc","更新节点成功");
         } catch (Exception e) {
@@ -78,10 +76,10 @@ public class TestController {
         JSONObject data = jsonObject.getJSONObject("data");
         String path = jsonObject.getString("path");
         Map result = new HashMap(16);
-        log.info(registryCenterProperties.getListenerNode()+path);
+        log.info(path);
         try {
-            zookeeperClient.deleteNode(registryCenterProperties.getListenerNode()+path);
-            log.info("删除节点"+registryCenterProperties.getListenerNode()+path+",删除数据"+data.toJSONString()+",删除节点为"+ZookeeperClient.NodeTypeEnum.LISTENERNODE);
+            zookeeperClient.deleteNode(path);
+            log.info("删除节点"+path+",删除数据"+data.toJSONString()+",删除节点为"+ZookeeperClient.NodeTypeEnum.LISTENERNODE);
             result.put("code","0000");
             result.put("desc","删除节点成功");
         } catch (Exception e) {

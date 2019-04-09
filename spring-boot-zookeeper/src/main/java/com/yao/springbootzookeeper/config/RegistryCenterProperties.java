@@ -18,11 +18,11 @@ import lombok.Data;
 @ConfigurationProperties(prefix = "spring.zookeeper")
 public class RegistryCenterProperties implements Serializable {
 
-    private String zkAddressList;
+    private String zkAddressList = "127.0.0.1:2181";
     /** 配置父节点 */
     private String namespace;
     /** 监控节点 */
-    private String listenerNode ;
+    private String listenerNode;
     /** 维护节点 */
     private String nodeInfo;
 

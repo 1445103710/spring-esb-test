@@ -4,6 +4,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.zookeeper.CreateMode;
+import org.apache.zookeeper.data.Stat;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
@@ -121,19 +122,19 @@ public class ZookeeperClient {
      * @param nodeData
      */
     public void createNode(String node, String nodeData, CreateMode mode) throws Exception {
-//        try {
-//            Stat stat = zkClient.checkExists().forPath(node);
-//            if(stat == null){
-//                zkClient.create()
-//                        .creatingParentContainersIfNeeded().withMode(mode)
-//                        .forPath(node, nodeData.getBytes());
-//            }
-//        } catch (Exception e) {
-//            log.error("ZookeeperClient.createNode ==> node: {}, nodeData: {} "+node+" "+nodeData, e);
-//        }
-        zkClient.create()
-                .creatingParentContainersIfNeeded().withMode(mode)
-                .forPath(node, nodeData.getBytes());
+        try {
+            Stat stat = zkClient.checkExists().forPath(node);
+            if(stat == null){
+                zkClient.create()
+                        .creatingParentContainersIfNeeded().withMode(mode)
+                        .forPath(node, nodeData.getBytes());
+            }
+        } catch (Exception e) {
+            log.error("ZookeeperClient.createNode ==> node: {}, nodeData: {} "+node+" "+nodeData, e);
+        }
+//        zkClient.create()
+//                .creatingParentContainersIfNeeded().withMode(mode)
+//                .forPath(node, nodeData.getBytes());
     }
 
     /**
@@ -141,7 +142,7 @@ public class ZookeeperClient {
      * @param node
      * @param nodeData
      */
-    private void updateNode(String node, String nodeData) {
+    public void updateNode(String node, String nodeData) {
         try {
             zkClient.setData().forPath(node, nodeData.getBytes());
         } catch (Exception e) {
@@ -153,7 +154,7 @@ public class ZookeeperClient {
      * 删除节点
      * @param node
      */
-    private void deleteNode(String node) throws Exception {
+    public void deleteNode(String node) throws Exception {
             zkClient.delete().forPath(node);
 
     }
@@ -163,7 +164,7 @@ public class ZookeeperClient {
      * @param node
      * @return
      */
-    private byte[] getNodeData(String node) throws Exception {
+    public byte[] getNodeData(String node) throws Exception {
             return zkClient.getData().forPath(node);
     }
 
