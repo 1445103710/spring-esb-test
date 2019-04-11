@@ -1,6 +1,7 @@
 package com.yao.springbootcommand.service;
 
 import org.apache.commons.exec.CommandLine;
+import org.apache.commons.exec.DefaultExecuteResultHandler;
 import org.apache.commons.exec.DefaultExecutor;
 import org.apache.commons.exec.ExecuteWatchdog;
 import org.apache.commons.exec.PumpStreamHandler;
@@ -81,5 +82,79 @@ public class ToolsJarHelp {
         }
 
     }
+    public static void cmd3(String jarPath,String classPath,String workDir) throws RuntimeException {
+        CommandLine cmd = new CommandLine("jar");
+        cmd.addArgument("-cf");
+        cmd.addArgument(jarPath);
+        cmd.addArgument(classPath);
+        log.info(cmd.toString());
 
+        ByteArrayOutputStream stderr = new ByteArrayOutputStream();
+        DefaultExecutor executor = new DefaultExecutor();
+        executor.setWorkingDirectory(new File(workDir));
+        executor.setStreamHandler(new PumpStreamHandler(null, stderr, null));
+        try {
+            executor.execute(cmd);
+            if (stderr.toString().length() > 0) {
+                throw new RuntimeException("Sandbox Aborted."+stderr.toString());
+            }
+            log.info("class to jar OK");
+        } catch (IOException e) {
+            e.printStackTrace();
+            log.info("class to jar error:\t" + e.getMessage());
+            throw new RuntimeException("An Error Occurred.");
+        }
+    }
+    /**
+     * 执行不需要返回结果的命令
+     * @throws Exception
+     */
+    public static void execCmdWithoutResult(String jarPath,String classPath,String workDir) throws Exception{
+        //开启windows telnet: net start telnet
+        //注意：第一个空格之后的所有参数都为参数
+        CommandLine cmdLine = new CommandLine("jar");
+        cmdLine.addArgument("-cf");
+        cmdLine.addArgument(jarPath);
+        cmdLine.addArgument(classPath);
+        DefaultExecutor executor = new DefaultExecutor();
+        executor.setExitValue(1);
+        //设置60秒超时，执行超过60秒后会直接终止
+        ExecuteWatchdog watchdog = new ExecuteWatchdog(60 * 1000*10);
+        executor.setWatchdog(watchdog);
+        executor.setWorkingDirectory(new File(workDir));
+        DefaultExecuteResultHandler handler = new DefaultExecuteResultHandler();
+        executor.execute(cmdLine, handler);
+        //命令执行返回前一直阻塞
+        handler.waitFor();
+    }
+
+    /**
+     * 带返回结果的命令执行
+     * @return
+     */
+    public static String execCmdWithResult(String command,String workDir,String bm) {
+        try {
+            //接收正常结果流
+            ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+            //接收异常结果流
+            ByteArrayOutputStream errorStream = new ByteArrayOutputStream();
+            CommandLine commandline = CommandLine.parse(command);
+            DefaultExecutor exec = new DefaultExecutor();
+            exec.setExitValues(null);
+            exec.setWorkingDirectory(new File(workDir));
+            //设置一分钟超时
+            ExecuteWatchdog watchdog = new ExecuteWatchdog(60*1000);
+            exec.setWatchdog(watchdog);
+            PumpStreamHandler streamHandler = new PumpStreamHandler(outputStream,errorStream);
+            exec.setStreamHandler(streamHandler);
+            exec.execute(commandline);
+            //不同操作系统注意编码，否则结果乱码
+            String out = outputStream.toString(bm);
+            String error = errorStream.toString(bm);
+            return out+"||||||||||||||||||||||||||"+error;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return e.getMessage();
+        }
+    }
 }
