@@ -14,6 +14,6 @@ package com.yao.service;
  */
 public interface DubboServcie {
 
-    public String doService();
+    public String doService(String name);
 
 }
