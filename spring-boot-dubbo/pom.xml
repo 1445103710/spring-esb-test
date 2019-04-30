@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-boot-dubbo-api</module>
-        <module>spring-boot-dubbo-api</module>
+        <module>spring-boot-dubbo-provide</module>
     </modules>
 
 

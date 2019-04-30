@@ -28,4 +28,11 @@ public class TestRouter {
                         .and(RequestPredicates.accept(MediaType.TEXT_PLAIN)),
                         testHandle::hello);
     }
+    @Bean
+    public RouterFunction<ServerResponse> routTest2(TestHandle testHandle){
+        return RouterFunctions
+                .route(RequestPredicates.POST("/test")
+                                .and(RequestPredicates.accept(MediaType.TEXT_PLAIN)),
+                        testHandle::hello);
+    }
 }
