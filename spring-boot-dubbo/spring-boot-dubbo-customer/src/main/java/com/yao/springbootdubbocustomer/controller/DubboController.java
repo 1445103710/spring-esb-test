@@ -1,5 +1,6 @@
 package com.yao.springbootdubbocustomer.controller;
 
+import com.yao.po.Baby;
 import com.yao.service.DubboServcie;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
@@ -29,7 +30,7 @@ public class DubboController {
     private DubboServcie dubboServcie;
 
     @GetMapping("/invoke")
-    public String invoke(@RequestParam String name){
+    public Baby invoke(@RequestParam String name){
         log.info("请求名称："+name);
         return dubboServcie.doService(name);
     }
