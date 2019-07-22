@@ -1,5 +1,6 @@
 package com.yao.springboottest.controller;
 
+import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,9 +24,9 @@ import lombok.extern.slf4j.Slf4j;
 public class TestController {
 
     @RequestMapping("/modle")
-    public Map getSomeThing(@RequestBody String body, @RequestHeader String head){
+    public Map getSomeThing(@RequestBody String body, @RequestHeader HttpHeaders headers){
         log.info(body);
-        log.info(head);
+        log.info(headers.toString());
         Map map = new HashMap();
         map.put("key","vlue");
         return map;

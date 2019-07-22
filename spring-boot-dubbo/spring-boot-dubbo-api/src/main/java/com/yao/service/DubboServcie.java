@@ -1,9 +1,6 @@
 package com.yao.service;
 
 import com.yao.po.Baby;
-import com.yao.po.Person;
-
-import java.util.Map;
 
 /**
  * @ProjectName: spring-esb-test
@@ -17,7 +14,7 @@ import java.util.Map;
  * @UpdateRemark: 更新说明
  * @Version: 1.0
  */
-    public interface DubboServcie {
+public interface DubboServcie {
 
     public Baby doService(String name);
 
