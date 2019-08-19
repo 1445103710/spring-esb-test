@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-cas/pom.xml" />
       </list>
     </option>
   </component>

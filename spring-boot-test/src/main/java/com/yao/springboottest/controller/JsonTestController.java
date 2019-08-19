@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @Slf4j
 public class JsonTestController {
-    @RequestMapping(value = "/**")
+    @RequestMapping(value = "/a")
     public String getJson(HttpServletRequest request, HttpServletResponse response){
         String pathInfo = request.getPathInfo();
         String queryString = request.getQueryString();

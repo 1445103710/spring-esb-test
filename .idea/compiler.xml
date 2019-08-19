@@ -13,6 +13,7 @@
         <module name="spring-boot-dubbo-provide" />
         <module name="spring-boot-command" />
         <module name="spring-boot-webflux-model" />
+        <module name="spring-boot-cas" />
         <module name="spring-boot-webflux" />
         <module name="spring-boot-test" />
         <module name="spring-boot-classload" />
@@ -20,7 +21,9 @@
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-cas" options="-parameters" />
       <module name="spring-boot-classload" options="-parameters" />
       <module name="spring-boot-command" options="-parameters" />
       <module name="spring-boot-dubbo-customer" options="-parameters" />

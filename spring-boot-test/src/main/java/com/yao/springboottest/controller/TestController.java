@@ -29,6 +29,7 @@ public class TestController {
         log.info(headers.toString());
         Map map = new HashMap();
         map.put("key","vlue");
+        map.put("bay","vlue");
         return map;
     }
 }
