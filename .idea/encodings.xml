@@ -6,6 +6,10 @@
     <file url="file://$PROJECT_DIR$/spring-boot-command" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-sdk-webflux-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-valid" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux" charset="UTF-8" />

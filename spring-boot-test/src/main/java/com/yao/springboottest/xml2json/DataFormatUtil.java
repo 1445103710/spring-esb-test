@@ -30,7 +30,7 @@ public class DataFormatUtil {
      * @author wangyan_z
      * @date 2019年7月10日 上午10:50:32
      */
-    public static String XmlToJson(String xmlString){
+    public static String XmlToJson(String xmlString)throws Exception{
 
         StringReader input = new StringReader(xmlString);
         StringWriter output = new StringWriter();
@@ -42,13 +42,13 @@ public class DataFormatUtil {
             reader.close();
             writer.close();
         } catch (Exception e) {
-            e.printStackTrace();
+            throw e;
         } finally {
             try {
                 output.close();
                 input.close();
             } catch (IOException e) {
-                e.printStackTrace();
+                throw e;
             }
         }
         return output.toString();
@@ -59,7 +59,7 @@ public class DataFormatUtil {
      * @author wangyan_z
      * @date 2019年7月10日 上午10:52:32
      */
-    public static String JsonToXml(String jsonString){
+    public static String JsonToXml(String jsonString)throws Exception{
         StringReader input = new StringReader(jsonString);
         StringWriter output = new StringWriter();
         JsonXMLConfig config = new JsonXMLConfigBuilder().multiplePI(false).repairingNamespaces(false).build();
@@ -71,7 +71,7 @@ public class DataFormatUtil {
             reader.close();
             writer.close();
         }catch (Exception e) {
-            e.printStackTrace();
+            throw e;
         } finally {
             try {
                 output.close();
@@ -91,7 +91,7 @@ public class DataFormatUtil {
      * @author wangyan_z
      * @date 2019年7月11日 下午4:05:40
      */
-    public static String JsonToXmlReplaceBlank(String jsonString) {
+    public static String JsonToXmlReplaceBlank(String jsonString) throws Exception{
         String str = DataFormatUtil.JsonToXml(jsonString);
         String dest = "";
         if (str != null) {

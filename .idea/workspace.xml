@@ -1,23 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c262699-0973-47b0-916a-02d6ec3a1365" name="Default Changelist" comment="新建测试项目">
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/yao/springboottest/bo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/yao/springboottest/java8/TestSomething.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/test/java/com/yao/springboottest/java8/TestStreamAPI2.java" afterDir="false" />
+    <list default="true" id="9c262699-0973-47b0-916a-02d6ec3a1365" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/ResourceServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/controller/UsetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/web/OAuth2LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/applicationbak.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/streamTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/util/MD5Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/spring-boot-dubbo-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/spring-boot-dubbo-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/JsonTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/JsonTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/SpringBootWebfluxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/SpringBootWebfluxApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,6 +46,11 @@
     <ignored path="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-test/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-cas/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-oauth2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-sdk-webflux-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,46 +73,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-999">
-              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/JsonTestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="269">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/src/main/java/com/yao/service/DubboServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="24">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/src/main/java/com/yao/service/DubboServcie.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/util/MD5Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="2040">
+              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,17 +129,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+            <state relative-caret-position="1512">
+              <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/CMDBcontroller.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/AuthorizationServerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1608">
-              <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+            <state relative-caret-position="216">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,47 +148,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="144">
+              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/Apple.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/ResourceServerConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/FilterApple.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="768">
+              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/LambadaUsage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2184">
-              <caret line="98" column="54" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#3062#3063#0" expanded="true" />
-                <element signature="e#3085#3086#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -190,29 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-command/src/test/java/com/yao/springbootcommand/TestYao.java" />
-        <option value="$PROJECT_DIR$/spring-boot-command/src/main/java/com/yao/springbootcommand/service/ToolsJarHelp.java" />
-        <option value="$PROJECT_DIR$/spring-boot-command/src/main/java/com/yao/springbootcommand/controller/CmdController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-command/src/test/java/com/yao/springbootcommand/TestMap.java" />
-        <option value="$PROJECT_DIR$/spring-boot-command/src/main/java/com/yao/springbootcommand/service/TestStatic.java" />
-        <option value="$PROJECT_DIR$/spring-boot-classload/src/main/java/com/yao/springbootclassload/classload/AbstractClassLoader.java" />
-        <option value="$PROJECT_DIR$/spring-boot-classload/src/main/java/com/yao/springbootclassload/classload/DynamicJarClassLoader.java" />
-        <option value="$PROJECT_DIR$/spring-boot-classload/src/test/java/com/yao/springbootclassload/classload/TestClassload.java" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/src/main/java/com/yao/po/Person.java" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/src/main/java/com/yao/po/Baby.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/filter/DefaultServerRequest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/util/GsonUtils.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/router/TestRouter.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/filter/BodyWebFilter.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/SpringBootWebfluxApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/rxjava/Test.java" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/src/main/java/com/yao/service/DubboServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomtic/AtomticTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/AtomticTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/AtomicTest.java" />
@@ -232,15 +210,38 @@
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/con/Employee.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/con/CollectionRemoveIfExample.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/demorun/DemoRunable.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/CMDBcontroller.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/github/fge/jsonschema/keyword/validator/common/MaximumValidator.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/Yaoyao.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/JsonTestController.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/streamTest/Test.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Test.java" />
+        <option value="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/SpringBootWebfluxApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/config/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/config/WebSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/web/OAuth2LoginController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-sdk-webflux-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/applicationbak.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/SpringBootOauth2WebfluxServerApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/WebSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/ResourceServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/Test.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/TestController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java" />
       </list>
     </option>
   </component>
@@ -251,6 +252,11 @@
         <option name="mavenHome" value="$USER_HOME$/local/app/enviroment/apache-maven-3.6.1" />
         <option name="userSettingsFile" value="$USER_HOME$/local/app/enviroment/apache-maven-3.6.1/conf/setting/ali/settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -267,15 +273,6 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-boot-dubbo-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="spring-boot-dubbo-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spring-boot-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -287,9 +284,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -298,7 +296,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -372,13 +369,52 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yao" type="462c0819:PsiDirectoryNode" />
               <item name="springboottest" type="462c0819:PsiDirectoryNode" />
-              <item name="xml2json" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
+              <item name="md5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,7 +428,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555479762560" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-test/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -402,15 +438,19 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yao.springbootoauth2server" />
       <recent name="com.yao.springboottest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yao.springboottest.util" />
+      <recent name="com.yao.springboottest.md5" />
+      <recent name="com.yao.springbootoauth2webfluxserver.web" />
       <recent name="com.yao.springboottest.java8.atomic" />
       <recent name="com.yao.springbootwebflux.util" />
-      <recent name="com.yao.springbootwebflux.filter" />
-      <recent name="com.yao.springbootzookeeper.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server" />
+      <recent name="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/spring-boot-test/src/main/java/com" />
       <recent name="F:\java\interlliJIDE\lean\esb\test\spring-esb-test\spring-boot-zookeeper\src\main\java\com\yao\springbootzookeeper\config" />
     </key>
@@ -449,41 +489,54 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.31614906" />
+    <option name="contentProportion" value="0.3341615" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootTestApplication">
-    <configuration name="CollectionRemoveIfExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.java8.con.CollectionRemoveIfExample" />
-      <module name="spring-boot-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.springboottest.java8.con.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoRunable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.java8.lamda.demorun.DemoRunable" />
-      <module name="spring-boot-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.springboottest.java8.lamda.demorun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MD5Util">
     <configuration name="LambadaUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.java8.lamda.LambadaUsage" />
       <module name="spring-boot-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yao.springboottest.java8.lamda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.util.MD5Util" />
+      <module name="spring-boot-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.springboottest.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.controller.Test" />
+      <module name="spring-boot-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.springboottest.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.java8.test.Test" />
+      <module name="spring-boot-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.springboottest.java8.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -500,22 +553,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStreamAPI2.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.springboottest.java8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yao.springboottest.java8" />
-      <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.java8.TestStreamAPI2" />
-      <option name="METHOD_NAME" value="test6" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -555,6 +592,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootOauth2GrantAuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-oauth2-grant-authorization" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springbootoauth2grantauthorization.SpringBootOauth2GrantAuthorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootOauth2SdkWebfluxServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-oauth2-sdk-webflux-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springbootoauth2sdkwebfluxserver.SpringBootOauth2SdkWebfluxServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootOauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-oauth2-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springbootoauth2server.SpringBootOauth2ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootOauth2WebfluxServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-oauth2-webflux-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springbootoauth2webfluxserver.SpringBootOauth2WebfluxServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springboottest.SpringBootTestApplication" />
@@ -584,11 +649,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectionRemoveIfExample" />
-      <item itemvalue="Application.DemoRunable" />
       <item itemvalue="Application.LambadaUsage" />
       <item itemvalue="Application.Yaoyao" />
-      <item itemvalue="JUnit.TestStreamAPI2.test6" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.MD5Util" />
       <item itemvalue="Spring Boot.SpringBootValidApplication" />
       <item itemvalue="Spring Boot.SpringBootZookeeperApplication" />
       <item itemvalue="Spring Boot.SpringBootCommandApplication" />
@@ -598,14 +663,18 @@
       <item itemvalue="Spring Boot.SpringBootDubboCustomerApplication" />
       <item itemvalue="Spring Boot.SpringBootTestApplication" />
       <item itemvalue="Spring Boot.SpringBootCasApplication" />
+      <item itemvalue="Spring Boot.SpringBootOauth2ServerApplication" />
+      <item itemvalue="Spring Boot.SpringBootOauth2WebfluxServerApplication" />
+      <item itemvalue="Spring Boot.SpringBootOauth2SdkWebfluxServerApplication" />
+      <item itemvalue="Spring Boot.SpringBootOauth2GrantAuthorizationApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MD5Util" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Yaoyao" />
         <item itemvalue="Application.LambadaUsage" />
-        <item itemvalue="Application.DemoRunable" />
-        <item itemvalue="Application.CollectionRemoveIfExample" />
-        <item itemvalue="JUnit.TestStreamAPI2.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -703,7 +772,26 @@
       <workItem from="1565857045134" duration="2496000" />
       <workItem from="1565917606556" duration="4050000" />
       <workItem from="1566034171633" duration="68000" />
-      <workItem from="1566198960755" duration="2748000" />
+      <workItem from="1566198960755" duration="7598000" />
+      <workItem from="1566265739075" duration="3761000" />
+      <workItem from="1567002244431" duration="384000" />
+      <workItem from="1567406169103" duration="1543000" />
+      <workItem from="1567490012770" duration="1672000" />
+      <workItem from="1567520052159" duration="473000" />
+      <workItem from="1567563240702" duration="8071000" />
+      <workItem from="1567649435056" duration="2806000" />
+      <workItem from="1567655020700" duration="478000" />
+      <workItem from="1567657789788" duration="55000" />
+      <workItem from="1567657868718" duration="61000" />
+      <workItem from="1567658087588" duration="1446000" />
+      <workItem from="1567669121462" duration="7491000" />
+      <workItem from="1567734428092" duration="897000" />
+      <workItem from="1567992048218" duration="2352000" />
+      <workItem from="1568078969881" duration="983000" />
+      <workItem from="1571205145263" duration="1168000" />
+      <workItem from="1571277115718" duration="3914000" />
+      <workItem from="1571362705433" duration="336000" />
+      <workItem from="1571621606730" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="新建测试项目">
       <created>1553739266155</created>
@@ -754,7 +842,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563801225140</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="新建测试项目">
+      <created>1566202207604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1566202207604</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -790,7 +885,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233160000" />
+    <option name="totallyTimeSpent" value="276203000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,10 +897,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.30463982" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.32905984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -817,7 +911,7 @@
       <window_info id="Alibaba Cloud Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.327551" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29081634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28944618" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39954597" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -826,17 +920,18 @@
       <window_info anchor="bottom" id="Spring" order="8" weight="0.3291714" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.502442" side_tool="true" weight="0.41836736" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5030562" side_tool="true" weight="0.3132653" />
       <window_info anchor="bottom" id="Run with VisualVM" order="12" weight="0.3291714" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.4993895" weight="0.3244898" />
-      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4993895" weight="0.3265306" />
+      <window_info active="true" anchor="bottom" id="Messages" order="16" sideWeight="0.4993895" visible="true" weight="0.32497388" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.497558" visible="true" weight="0.23315509" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49694377" weight="0.4169279" />
       <window_info anchor="bottom" id="Thumbnails" order="20" weight="0.32959184" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="21" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="21" weight="0.3291536" />
+      <window_info anchor="bottom" id="JProfiler" order="22" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -848,9 +943,11 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.329582" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.22344323" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.22283272" />
       <window_info anchor="right" id="RestServices" order="12" weight="0.32967034" />
       <window_info anchor="right" id="Coverage" order="13" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Mybatis datasource" order="14" side_tool="true" weight="0.3294621" />
+      <window_info anchor="right" id="Alibaba Log Console" order="15" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,293 +1006,280 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://H:/app/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar!/org/apache/catalina/core/ApplicationHttpRequest.class" />
-    <entry file="jar://H:/app/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.17/tomcat-embed-core-9.0.17.jar!/javax/servlet/http/HttpServletRequest.class" />
-    <entry file="jar://H:/app/repository/io/projectreactor/reactor-core/3.2.8.RELEASE/reactor-core-3.2.8.RELEASE.jar!/reactor/core/publisher/MonoJust.class" />
-    <entry file="file://$PROJECT_DIR$/spring-esb-test.iml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/pom.xml">
+    <entry file="file://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-        </state>
+        <state relative-caret-position="-1742" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/mvnw.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1580" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/mvnw">
+    <entry file="file://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-oauth2-jose/5.1.6.RELEASE/spring-security-oauth2-jose-5.1.6.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/AtomicTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/applicationbak.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="220">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/AtomicTest2.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/SpringBootOauth2WebfluxServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="72">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28380">
-          <caret line="1959" column="19" selection-start-line="1959" selection-start-column="19" selection-end-line="1959" selection-end-column="19" />
+        <state relative-caret-position="336">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/web/OAuth2LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/CompletableFutureTestYao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="44" lean-forward="true" selection-start-column="44" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/thread/MYThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/test/java/com/yao/springboottest/bo.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-cas/src/main/java/com/yao/cas/springbootcas/SpringBootCasApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-cas/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="600">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/test/java/com/yao/springboottest/java8/TestSomething.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/test/java/com/yao/springboottest/java8/TestStreamAPI2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/src/main/java/com/yao/springbootdubboprovide/SpringBootDubboProvideApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer/src/main/java/com/yao/springbootdubbocustomer/controller/DubboController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer/src/main/java/com/yao/springbootdubbocustomer/SpringBootDubboCustomerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/test/java/com/yao/springboottest/bo/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="888">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/con/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/con/CollectionRemoveIfExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="408" column="49" lean-forward="true" selection-start-line="408" selection-start-column="38" selection-end-line="408" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="463" column="48" lean-forward="true" selection-start-line="463" selection-start-column="48" selection-end-line="463" selection-end-column="48" />
-          <folding>
-            <element signature="e#5559#5560#0" expanded="true" />
-            <element signature="e#5600#5601#0" expanded="true" />
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/demorun/DemoRunable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/github/fge/jackson/jsonpointer/TreePointer.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/github/fge/jsonschema/keyword/validator/common/MaximumValidator.java" />
-    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/info/ProjectInfoProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/Yaoyao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/fsdownload/SelfDefHeader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13251">
-          <caret line="852" column="39" selection-start-line="852" selection-start-column="39" selection-end-line="852" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/SpringBootTestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/JsonTestController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/SpringBootOauth2ServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/WebSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="72">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/annotation/AbstractConfiguredSecurityBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/annotation/AbstractSecurityBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassEnhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="350" selection-start-line="350" selection-end-line="350" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-beans/5.1.9.RELEASE/spring-beans-5.1.9.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#6091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+          <folding>
+            <element signature="e#8984#9264#0" expanded="true" />
+            <element signature="e#9263#9264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/SpringBootOauth2GrantAuthorizationApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/provisioning/InMemoryUserDetailsManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerSecurityConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3198">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/AuthorizationServerEndpointsConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="146" column="50" selection-start-line="146" selection-start-column="50" selection-end-line="146" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/controller/UsetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/AuthorizationServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="888">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/CMDBcontroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="12" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-crypto/5.1.6.RELEASE/spring-security-crypto-5.1.6.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/configurers/ClientDetailsServiceConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/builders/InMemoryClientDetailsServiceBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="77" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/src/main/java/com/yao/service/DubboServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="480">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1204,84 +1288,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/src/main/java/com/yao/service/DubboServcie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="384">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer/src/main/java/com/yao/springbootdubbocustomer/controller/DubboController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/JsonTestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        <state relative-caret-position="1512">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/CMDBcontroller.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/AuthorizationServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="216">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/Apple.java">
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/builders/ClientDetailsServiceBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/FilterApple.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/ResourceServerConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="768">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/lamda/LambadaUsage.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="98" column="54" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#3062#3063#0" expanded="true" />
-            <element signature="e#3085#3086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-999">
-          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="269">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -18,9 +18,13 @@ public class XML2JsonController {
 
     @RequestMapping("test")
     public String xml2json(@RequestBody String xml){
-        log.info("请求》》》"+xml);
-        String json = DataFormatUtil.XmlToJson(xml);
-        log.info("返回《《《"+json);
-        return json;
+        try {
+            log.info("请求》》》"+xml);
+            String json = DataFormatUtil.XmlToJson(xml);
+            log.info("返回《《《"+json);
+            return json;
+        }catch (Exception e){
+            return e.getMessage();
+        }
     }
 }
