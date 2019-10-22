@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c262699-0973-47b0-916a-02d6ec3a1365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/config/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java/com/yao/springbootoauth2grantauthorization/controller/UsetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/config/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/config/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/config/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java/com/yao/springbootoauth2webfluxserver/web/OAuth2LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/applicationbak.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/streamTest/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/spring-boot-dubbo-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-api/target/spring-boot-dubbo-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/DataFormatUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/xml2json/XML2JsonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/SpringBootWebfluxApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java/com/yao/springbootwebflux/SpringBootWebfluxApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,6 +29,7 @@
     <ignored path="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-sdk-webflux-server/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-webservice/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,39 +52,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/Test.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="264">
+              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/JsonTestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/spring-boot-webservice/src/main/java/com/yao/springbootwebservice/SpringBootWebserviceApplication.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-webservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="-507">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -191,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomtic/AtomticTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/AtomticTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/AtomicTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/AtomicTest2.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/CompletableFuture.java" />
@@ -242,6 +220,8 @@
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/util/MD5Util.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boo-webservice/pom.xml" />
       </list>
     </option>
   </component>
@@ -296,6 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,115 +287,34 @@
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-webservice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
-              <item name="md5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,6 +457,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBooWebserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-webservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springboowebservice.SpringBooWebserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootCasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-cas" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.cas.springbootcas.SpringBootCasApplication" />
@@ -667,6 +574,7 @@
       <item itemvalue="Spring Boot.SpringBootOauth2WebfluxServerApplication" />
       <item itemvalue="Spring Boot.SpringBootOauth2SdkWebfluxServerApplication" />
       <item itemvalue="Spring Boot.SpringBootOauth2GrantAuthorizationApplication" />
+      <item itemvalue="Spring Boot.SpringBooWebserviceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -791,7 +699,9 @@
       <workItem from="1571205145263" duration="1168000" />
       <workItem from="1571277115718" duration="3914000" />
       <workItem from="1571362705433" duration="336000" />
-      <workItem from="1571621606730" duration="302000" />
+      <workItem from="1571621606730" duration="1462000" />
+      <workItem from="1571708853454" duration="563000" />
+      <workItem from="1571711118535" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="新建测试项目">
       <created>1553739266155</created>
@@ -849,7 +759,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566202207604</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="新建测试项目">
+      <created>1571641527912</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571641527912</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -885,7 +802,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276203000" />
+    <option name="totallyTimeSpent" value="278409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -898,8 +815,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.32905984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.33638585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1006,17 +924,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/oauth/spring-security-oauth2/2.3.4.RELEASE/spring-security-oauth2-2.3.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1742" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-oauth2-jose/5.1.6.RELEASE/spring-security-oauth2-jose-5.1.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/resources/applicationbak.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1055,20 +962,20 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="888">
           <caret line="37" column="51" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="51" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java/com/yao/springbootoauth2server/SpringBootOauth2ServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1100,12 +1007,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE.jar!/org/springframework/security/config/annotation/AbstractConfiguredSecurityBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1331,6 +1238,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-webservice/src/main/java/com/yao/springbootwebservice/SpringBootWebserviceApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1379,12 +1307,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/md5/Md5Controller.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-webservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="-507">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -1438,7 +1367,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-boot-cas</last-edited>
+          <last-edited>spring-boo-webservice</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

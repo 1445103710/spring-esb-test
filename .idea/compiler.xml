@@ -13,10 +13,11 @@
         <module name="spring-boot-command" />
         <module name="spring-boot-webflux" />
         <module name="spring-boot-oauth2" />
+        <module name="spring-boot-oauth2-webflux-server" />
         <module name="spring-boot-oauth2-server" />
         <module name="spring-boot-cas" />
         <module name="spring-boot-webflux-model" />
-        <module name="spring-boot-oauth2-webflux-server" />
+        <module name="spring-boot-webservice" />
         <module name="spring-boot-dubbo-api" />
         <module name="spring-boot-oauth2-sdk-webflux-server" />
         <module name="spring-boot-zookeeper" />
@@ -40,6 +41,7 @@
       <module name="spring-boot-test" options="-parameters" />
       <module name="spring-boot-valid" options="-parameters" />
       <module name="spring-boot-webflux" options="-parameters" />
+      <module name="spring-boot-webservice" options="-parameters" />
       <module name="spring-boot-zookeeper" options="-parameters" />
     </option>
   </component>
