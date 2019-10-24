@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-sdk-webflux-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webservice/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-webservice-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/pom.xml" />
       </list>
     </option>
   </component>

@@ -13,6 +13,7 @@
         <module>spring-boot-webflux-model</module>
         <module>spring-boot-oauth2</module>
         <module>spring-boot-webservice</module>
+        <module>spring-boot-webservice-client</module>
     </modules>
 
 
