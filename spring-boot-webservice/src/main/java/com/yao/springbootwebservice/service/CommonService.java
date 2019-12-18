@@ -1,5 +1,7 @@
 package com.yao.springbootwebservice.service;
 
+import com.yao.springbootwebservice.po.Quote;
+
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebResult;
@@ -18,4 +20,9 @@ public interface CommonService {
     @WebMethod
     @WebResult(name = "String",targetNamespace = "")
     public String HelloWorld(@WebParam(name = "HelloName") String name);
+
+
+    @WebMethod
+    @WebResult(name = "String",targetNamespace = "yaoyao")
+    public String HelloWorlda(@WebParam(name = "Quote") Quote name);
 }

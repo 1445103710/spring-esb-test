@@ -15,6 +15,7 @@
         <module name="spring-boot-oauth2" />
         <module name="spring-boot-oauth2-webflux-server" />
         <module name="spring-boot-oauth2-server" />
+        <module name="spring-boot-r2dbc-h2" />
         <module name="spring-boot-cas" />
         <module name="spring-boot-webflux-model" />
         <module name="spring-boot-webservice" />
@@ -41,6 +42,7 @@
       <module name="spring-boot-oauth2-sdk-webflux-server" options="-parameters" />
       <module name="spring-boot-oauth2-server" options="-parameters" />
       <module name="spring-boot-oauth2-webflux-server" options="-parameters" />
+      <module name="spring-boot-r2dbc-h2" options="-parameters" />
       <module name="spring-boot-test" options="-parameters" />
       <module name="spring-boot-valid" options="-parameters" />
       <module name="spring-boot-webflux" options="-parameters" />

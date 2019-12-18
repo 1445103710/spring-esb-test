@@ -1,5 +1,6 @@
 package com.yao.springbootwebservice.service.impl;
 
+import com.yao.springbootwebservice.po.Quote;
 import com.yao.springbootwebservice.service.CommonService;
 import org.springframework.stereotype.Component;
 
@@ -19,5 +20,10 @@ public class CommonServiceImpl implements CommonService {
     @Override
     public String HelloWorld(String name) {
         return "Hello World!!! --->"+name;
+    }
+
+    @Override
+    public String HelloWorlda(Quote name) {
+        return name.toString();
     }
 }

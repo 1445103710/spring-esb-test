@@ -2,6 +2,8 @@ package com.yao.springbootmq.controller;
 
 import com.google.common.collect.Maps;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,10 +20,14 @@ import java.util.Map;
 @RequestMapping("/rabbitMq")
 @Slf4j
 public class RabbitmqController {
+    @Autowired
+    private AmqpTemplate rabbitAmqpTemplate;
 
     @RequestMapping(value = "/mq")
     public Map putMq(@RequestBody String test){
         log.info("入参>>>"+test);
+        rabbitAmqpTemplate.convertAndSend("yaoyao_queue",test);
+        rabbitAmqpTemplate.convertAndSend("yaoyao_queue1",test);
         Map<String,String>map = Maps.newHashMap();
         map.put("code","0");
         map.put("desc","成功");

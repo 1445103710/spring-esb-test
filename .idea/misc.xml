@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/spring-boot-webservice/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-webservice-client/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-r2dbc-h2/pom.xml" />
       </list>
     </option>
   </component>
