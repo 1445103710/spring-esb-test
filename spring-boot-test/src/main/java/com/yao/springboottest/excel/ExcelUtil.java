@@ -192,6 +192,25 @@ public class ExcelUtil {
         }
         return workbook;
     }
+    /**
+     * 删除指定行
+     *
+     * @param workbook
+     * @param sheetIndex
+     * @param rowIndex
+     * @return
+     */
+    public static Workbook removeRowByName(Workbook workbook, String sheetIndex, int rowIndex) {
+        Sheet sheet = workbook.getSheet(sheetIndex);
+        int lastRowNum = sheet.getLastRowNum();
+        if (rowIndex >= 0 && rowIndex < lastRowNum) {
+            sheet.shiftRows(rowIndex + 1, lastRowNum, -1);
+        }
+        if (rowIndex == lastRowNum) {
+            sheet.removeRow(sheet.getRow(rowIndex));
+        }
+        return workbook;
+    }
 
     /**
      * 在指定位置插入空白行

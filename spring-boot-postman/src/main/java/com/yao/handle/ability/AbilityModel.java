@@ -44,6 +44,16 @@ public class AbilityModel {
     private String outputProtocal;
 
     /**
+     * 请求类型
+     */
+    private String mode;
+
+    /**
+     * 请求方法
+     */
+    private String outputTransProtocal;
+
+    /**
      * 备注
      */
     private String remark;
