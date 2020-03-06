@@ -3,6 +3,7 @@ package com.yao.controller;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.yao.service.FileService;
 import com.yao.util.SchemaUtil;
+import com.yao.util.XmlUtil;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -31,6 +32,11 @@ public class FileUploadController {
     @PostMapping("/json2Schema")
     public String json2Schema(@RequestBody String json) throws JsonProcessingException {
         return SchemaUtil.json2Schema(json);
+    }
+
+    @PostMapping("/xml2Schema")
+    public String xml2Schema(@RequestBody String json) throws JsonProcessingException {
+        return XmlUtil.convertXmlToJson(json);
     }
 
 }

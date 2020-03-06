@@ -31,6 +31,7 @@ public class SchemaUtil {
     private final static String SCHEMA_BOOLEAN = "boolean";
     private final static String SCHEMA_ROOT = "root";
     private final static String SCHEMA_4 = "http://json-schema.org/draft-04/schema#";
+    private static JsonMapper jsonMapper = new JsonMapper();
 
     /**
      * 解析json字符串
@@ -41,7 +42,6 @@ public class SchemaUtil {
      */
     public static String json2Schema(String json) throws JsonProcessingException {
         Map nodes = new LinkedHashMap();
-        JsonMapper jsonMapper = new JsonMapper();
         Map map = jsonMapper.readValue(json, Map.class);
         parseObject(nodes, SCHEMA_ROOT, map, true);
         Map schema = (Map) nodes.get(SCHEMA_ROOT);
@@ -73,6 +73,11 @@ public class SchemaUtil {
         }
         nodes.put(SCHEMA_TYPE, SCHEMA_OBJECT);
         nodes.put(SCHEMA_PROPERTIES, node);
+        //todo 复杂不合逻辑报文暂时不解析
+//        if (map.get(k)!=null){
+//            Map maps = (Map)map.get(k);
+//            System.out.println(maps);
+//        }
         map.put(k, nodes);
     }
 
