@@ -1,5 +1,6 @@
 package com.yao.handle.channel;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.yao.handle.ability.AbilityModel;
 
 /**
@@ -8,16 +9,9 @@ import com.yao.handle.ability.AbilityModel;
 public interface GenerateSchemaService<T> {
 
     /**
-     * 根据请求报文类型转换报文成Schema文件
+     * 根据报文类型转换报文成Schema文件
      * @param abilityModel
      * @param o
      */
-    void invokGeenerateReqSchema(AbilityModel abilityModel,T o);
-
-    /**
-     * 根据请求报文类型转换报文成Schema文件
-     * @param abilityModel
-     * @param o
-     */
-    void invokGeenerateRspSchema(AbilityModel abilityModel,T o);
+    void invokGeenerateSchema(AbilityModel abilityModel,T o) throws JsonProcessingException;
 }

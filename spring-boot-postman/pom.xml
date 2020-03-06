@@ -40,6 +40,12 @@
             <version>1.18.10</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.java-json-tools</groupId>
+            <artifactId>jackson-coreutils</artifactId>
+            <version>1.9</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>

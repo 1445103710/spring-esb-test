@@ -1,8 +1,12 @@
 package com.yao.handle.channel.impl;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.yao.handle.ability.AbilityModel;
 import com.yao.handle.channel.GenerateSchemaService;
-import org.springframework.stereotype.Service;
+import com.yao.handle.postman.PostmanItem;
+import lombok.extern.slf4j.Slf4j;
+
+import static com.yao.util.SchemaUtil.json2Schema;
 
 /**
  * @className GenerateSchemaFromRawServiceImpl
@@ -10,16 +14,21 @@ import org.springframework.stereotype.Service;
  * @author: yaoyao
  * @create: 2020/03/04 13:10
  */
-@Service(value = "generateSchemaFromRaw")
-public class GenerateSchemaFromRawServiceImpl<String> implements GenerateSchemaService<String> {
+@Slf4j
+public class GenerateSchemaFromRawServiceImpl implements GenerateSchemaService<PostmanItem> {
 
     @Override
-    public void invokGeenerateReqSchema(AbilityModel abilityModel, String o) {
+    public void invokGeenerateSchema(AbilityModel abilityModel, PostmanItem postmanItem) {
+        try {
+            abilityModel.setFlag(true);
+            String value = postmanItem.getRequest().getBody().getRaw().getValue();
+            abilityModel.setReqJsonschema(json2Schema(value));
+        } catch (JsonProcessingException e) {
+            abilityModel.setFlag(false);
+            abilityModel.setMsg("报文解析失败！！！");
+        }
 
     }
 
-    @Override
-    public void invokGeenerateRspSchema(AbilityModel abilityModel, String o) {
 
-    }
 }

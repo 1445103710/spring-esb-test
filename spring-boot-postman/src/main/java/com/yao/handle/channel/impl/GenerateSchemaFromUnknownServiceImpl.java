@@ -2,7 +2,8 @@ package com.yao.handle.channel.impl;
 
 import com.yao.handle.ability.AbilityModel;
 import com.yao.handle.channel.GenerateSchemaService;
-import org.springframework.stereotype.Service;
+import com.yao.handle.postman.PostmanItem;
+
 
 /**
  * @className GenerateSchemaFromRawServiceImpl
@@ -10,16 +11,10 @@ import org.springframework.stereotype.Service;
  * @author: yaoyao
  * @create: 2020/03/04 13:10
  */
-@Service(value = "generateSchemaFromUnknown")
-public class GenerateSchemaFromUnknownServiceImpl<String> implements GenerateSchemaService<String> {
+public class GenerateSchemaFromUnknownServiceImpl implements GenerateSchemaService<PostmanItem> {
 
     @Override
-    public void invokGeenerateReqSchema(AbilityModel abilityModel, String o) {
-
-    }
-
-    @Override
-    public void invokGeenerateRspSchema(AbilityModel abilityModel, String o) {
-
+    public void invokGeenerateSchema(AbilityModel abilityModel, PostmanItem postmanItem) {
+        abilityModel.setFlag(false);
     }
 }

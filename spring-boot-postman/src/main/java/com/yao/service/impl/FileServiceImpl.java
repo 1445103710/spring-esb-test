@@ -17,22 +17,22 @@ import org.springframework.web.multipart.MultipartFile;
  */
 @Service
 public class FileServiceImpl implements FileService {
+
     @Override
     public String upload(String name, MultipartFile file) {
         String multipartFileContent = MultipartFileUtil.getMultipartFileContent(file);
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            ParseAbilityList parseAbilityList = new ParseAbilityList();
             PostmanCollection postmanCollection = objectMapper.readValue(multipartFileContent, PostmanCollection.class);
+            ParseAbilityList parseAbilityList = new ParseAbilityList();
             parseAbilityList.parsePostmanCollection(postmanCollection);
-            String s = objectMapper.writeValueAsString(postmanCollection);
+//            String s = objectMapper.writeValueAsString(postmanCollection);
             String s1 = objectMapper.writeValueAsString(parseAbilityList.getAbilityList());
-            System.out.println(s);
-            System.out.println(s1);
-            return s;
+            return s1;
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
         return multipartFileContent;
     }
+
 }
