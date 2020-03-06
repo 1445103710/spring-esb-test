@@ -3,8 +3,6 @@ package com.yao.handle.channel;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
-import java.util.Arrays;
-
 /**
  * 用于postman转json方法
  */

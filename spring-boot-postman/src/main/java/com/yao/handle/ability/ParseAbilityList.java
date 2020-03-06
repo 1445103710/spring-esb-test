@@ -37,13 +37,17 @@ public class ParseAbilityList {
         if (postmanItem.getRequest() != null) {
             try {
                 AbilityModel abilityModel = new AbilityModel();
+                abilityModel.setFlag(true);
+                abilityModel.setAbilityVersion("v1");
                 if (get.equalsIgnoreCase(postmanItem.getRequest().getMethod())) {
                     paresGet(postmanItem, abilityModel);
                 } else if (post.equalsIgnoreCase(postmanItem.getRequest().getMethod())) {
                     parePost(postmanItem, abilityModel);
                 } else {
-                    abilityModel.setFlag(false);
-                    abilityModel.setMsg("请求方式不支持");
+                    abilityModel.setError("请求方法不支持！："+postmanItem.getRequest().getMethod());
+                }
+                if (!abilityModel.getFlag()){
+                    abilityModel.paresError();
                 }
             } catch (Exception e) {
                 pareException(postmanItem, e);
@@ -65,23 +69,27 @@ public class ParseAbilityList {
 
     private void parePost(PostmanItem postmanItem, AbilityModel abilityModel) throws JsonProcessingException {
         GenerateSchemaService strategy = FactoryForSchema.getStrategy(postmanItem.getRequest().getBody().getMode());
+        abilityModel.setOutputTransProtocal(post);
+        abilityModel.setMode(postmanItem.getRequest().getBody().getMode());
         strategy.invokGeenerateSchema(abilityModel, postmanItem);
         abilityModel.setAbilityName(postmanItem.getName());
         generateUrl(abilityModel, postmanItem);
-        abilityModel.setMode(postmanItem.getRequest().getBody().getMode());
         abilityModel.setRemark(postmanItem.getRequest().getDescription());
         addAbility(abilityModel);
     }
 
     private void paresGet(PostmanItem postmanItem, AbilityModel abilityModel) throws JsonProcessingException {
         List<PostmanQuery> queries = postmanItem.getRequest().getUrl().getQueries();
+        abilityModel.setOutputTransProtocal(get);
         if (queries.size() < 1) {
             log.error("获取请求参数异常");
+            abilityModel.setError("能力平台暂时不支持无参get请求");
         } else {
             Map map = new HashMap();
             JsonMapper jsonMapper = new JsonMapper();
             queries.forEach(a -> map.put(a.getKey(), a.getValue()));
             abilityModel.setReqJsonschema(jsonMapper.writeValueAsString(map));
+            abilityModel.setRspJsonschema("1122");
         }
     }
 
@@ -105,8 +113,7 @@ public class ParseAbilityList {
             String replace = raw.replace("https://", "");
             generatePath(abilityModel, replace);
         } else {
-            abilityModel.setFlag(false);
-            abilityModel.setMsg("服务地址错误：" + raw);
+            abilityModel.setError("服务地址错误：" + raw);
         }
     }
 

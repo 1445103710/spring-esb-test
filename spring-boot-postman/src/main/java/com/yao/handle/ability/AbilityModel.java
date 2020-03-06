@@ -1,5 +1,7 @@
 package com.yao.handle.ability;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreType;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,6 +20,8 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class AbilityModel {
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    private StringBuffer stringBuffer = new StringBuffer();
     /**
      * 能力名
      */
@@ -82,4 +86,16 @@ public class AbilityModel {
      * 能力解析失败原因
      */
     private String msg;
+
+    public void setError(String msg) {
+        this.setFlag(false);
+        if (this.stringBuffer.length() > 0) {
+            this.stringBuffer.append(",");
+        }
+        this.stringBuffer.append(msg);
+    }
+
+    public void paresError() {
+        this.setMsg(this.stringBuffer.toString());
+    }
 }

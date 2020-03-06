@@ -4,9 +4,11 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.yao.handle.ability.AbilityModel;
 import com.yao.handle.channel.GenerateSchemaService;
 import com.yao.handle.postman.PostmanItem;
+import com.yao.util.SchemaUtil;
+import com.yao.util.XmlUtil;
 import lombok.extern.slf4j.Slf4j;
 
-import static com.yao.util.SchemaUtil.json2Schema;
+import java.util.Arrays;
 
 /**
  * @className GenerateSchemaFromRawServiceImpl
@@ -18,15 +20,24 @@ import static com.yao.util.SchemaUtil.json2Schema;
 public class GenerateSchemaFromRawServiceImpl implements GenerateSchemaService<PostmanItem> {
 
     @Override
-    public void invokGeenerateSchema(AbilityModel abilityModel, PostmanItem postmanItem) {
-        try {
-            abilityModel.setFlag(true);
-            String value = postmanItem.getRequest().getBody().getRaw().getValue();
-            abilityModel.setReqJsonschema(json2Schema(value));
-        } catch (JsonProcessingException e) {
-            abilityModel.setFlag(false);
-            abilityModel.setMsg("报文解析失败！！！");
+    public void invokGeenerateSchema(AbilityModel abilityModel, PostmanItem postmanItem) throws JsonProcessingException {
+        String value = postmanItem.getRequest().getBody().getRaw().getValue();
+        if (value != null) {
+            if (value.startsWith("{")) {
+                abilityModel.setReqJsonschema(SchemaUtil.json2Schema(value));
+                abilityModel.setInputProtocal(Arrays.asList("json"));
+                abilityModel.setOutputProtocal("json");
+            } else if (value.startsWith("<")) {
+                abilityModel.setReqJsonschema(SchemaUtil.json2Schema(XmlUtil.convertXmlToJson(value)));
+                abilityModel.setInputProtocal(Arrays.asList("xml"));
+                abilityModel.setOutputProtocal("xml");
+            } else {
+                abilityModel.setError("请求报文为空");
+            }
+        } else {
+            abilityModel.setError("请求报文格式不支持解析");
         }
+        abilityModel.setRspJsonschema("1122");
 
     }
 

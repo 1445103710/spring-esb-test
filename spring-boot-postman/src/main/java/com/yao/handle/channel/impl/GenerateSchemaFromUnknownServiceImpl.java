@@ -15,6 +15,6 @@ public class GenerateSchemaFromUnknownServiceImpl implements GenerateSchemaServi
 
     @Override
     public void invokGeenerateSchema(AbilityModel abilityModel, PostmanItem postmanItem) {
-        abilityModel.setFlag(false);
+        abilityModel.setError("能力平台暂时不支持此请求类型："+abilityModel.getMode());
     }
 }
