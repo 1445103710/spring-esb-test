@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c262699-0973-47b0-916a-02d6ec3a1365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/XmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-postman/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-postman/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/SchemaUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/SchemaUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,114 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/SchemaUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/XmlUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2759">
-              <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-              <folding>
-                <element signature="e#10065#10066#0" expanded="true" />
-                <element signature="e#10148#10149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/controller/FileUploadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/ParseAbilityList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/SpringBootPostmanApplication.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/SpringBootTestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromRawServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -247,24 +142,24 @@
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/excel.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/Test.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/generateSchemaService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/AbilityModel.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/ExcelUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/Test3.java" />
         <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/Test2.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromJsonServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/GenerateSchemaService.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/SpringBootPostmanApplication.java" />
-        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/ParseAbilityList.java" />
-        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromUnknownServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/FactoryForSchema.java" />
-        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/GenetateSchemaEnum.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromRawServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/SchemaUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/controller/FileUploadController.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/XmlUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/GenetateSchemaEnum.java" />
+        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromUnknownServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/AbilityModel.java" />
+        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromRawServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/ParseAbilityList.java" />
+        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -312,8 +207,6 @@
     </navigator>
     <panes>
       <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,165 +217,65 @@
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-              <item name="ability" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="handle" type="462c0819:PsiDirectoryNode" />
-              <item name="postman" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-postman" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -503,6 +296,12 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -568,7 +367,7 @@
     </option>
     <option name="contentProportion" value="0.24223602" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootPostmanApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootTestApplication">
     <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.java8.test.Demo04" />
       <module name="spring-boot-test" />
@@ -973,7 +772,11 @@
       <workItem from="1583371959382" duration="14073000" />
       <workItem from="1583419455266" duration="88000" />
       <workItem from="1583419652521" duration="4916000" />
-      <workItem from="1583463611986" duration="11965000" />
+      <workItem from="1583463611986" duration="17706000" />
+      <workItem from="1583640891811" duration="477000" />
+      <workItem from="1583720799060" duration="820000" />
+      <workItem from="1583894616622" duration="1282000" />
+      <workItem from="1583908099914" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="新建测试项目">
       <created>1553739266155</created>
@@ -1122,7 +925,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583472489635</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="rabbitmq学习">
+      <created>1583478779745</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583478779745</updated>
+    </task>
+    <task id="LOCAL-00023" summary="解析schema文件">
+      <created>1583482533760</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1583482533760</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1158,7 +975,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="539831000" />
+    <option name="totallyTimeSpent" value="548912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1171,9 +988,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.30891332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.32356533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1202,7 +1018,7 @@
       <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4993895" weight="0.32497388" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.496337" visible="true" weight="0.3719958" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.496337" visible="true" weight="0.3719958" />
       <window_info anchor="bottom" id="Thumbnails" order="20" weight="0.32959184" />
       <window_info anchor="bottom" id="JProfiler" order="21" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="22" weight="0.32879582" />
@@ -1242,7 +1058,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新建测试项目" />
     <MESSAGE value="rabbitmq学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="rabbitmq学习" />
+    <MESSAGE value="解析schema文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="解析schema文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1398,57 +1215,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanFileBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/awt/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12325">
-          <caret line="108" column="13" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17061">
@@ -1469,12 +1235,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-test/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="93" selection-start-line="93" selection-end-line="99" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar!/org/apache/poi/ss/usermodel/Cell.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1632,16 +1398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanBody.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -1654,27 +1410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/AbilityModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanRawBody.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1682,33 +1417,6 @@
           <folding>
             <element signature="e#341#342#0" expanded="true" />
             <element signature="e#369#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/GenetateSchemaEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/GenerateSchemaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromUnknownServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1734,30 +1442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/FactoryForSchema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/SpringBootPostmanApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromRawServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1775,42 +1463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/ParseAbilityList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/SchemaUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/controller/FileUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1835,13 +1491,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/pom.xml">
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="103">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/GenerateSchemaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/GenetateSchemaEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar!/com/fasterxml/jackson/annotation/JsonProperty.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/ParseAbilityList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/MultipartFileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="19" selection-start-line="42" selection-start-column="8" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/SchemaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/ParseImportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/FactoryForSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromRawServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromUnknownServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/AbilityModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar!/com/fasterxml/jackson/databind/json/JsonMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="33" column="36" selection-start-line="22" selection-start-column="8" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/SpringBootTestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

@@ -26,7 +26,6 @@ public class FileServiceImpl implements FileService {
             PostmanCollection postmanCollection = objectMapper.readValue(multipartFileContent, PostmanCollection.class);
             ParseAbilityList parseAbilityList = new ParseAbilityList();
             parseAbilityList.parsePostmanCollection(postmanCollection);
-//            String s = objectMapper.writeValueAsString(postmanCollection);
             String s1 = objectMapper.writeValueAsString(parseAbilityList.getAbilityList());
             return s1;
         } catch (JsonProcessingException e) {
