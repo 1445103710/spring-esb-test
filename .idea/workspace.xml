@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c262699-0973-47b0-916a-02d6ec3a1365" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/SpringBootRocketmqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/RocketmqConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/util/SerializeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-rocketmq/src/test/java/com/yao/SpringBootRocketmqApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/SpringBootMqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/SpringBootMqApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/controller/RabbitmqController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/controller/RabbitmqController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/handle/RabbbitMqConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/handle/RabbbitMqConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/handle/RabbbitMqConsumer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/handle/RabbbitMqConsumer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mq/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mq/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,6 +53,7 @@
     <ignored path="$PROJECT_DIR$/spring-boot-mq/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-r2dbc-h2/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-postman/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-rocketmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +89,124 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/SpringBootTestApplication.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/RocketmqConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="147">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-185">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-456">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1206#1207#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1376#1377#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+                <element signature="e#1671#1672#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="e#1885#1886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3.jar!/org/apache/rocketmq/spring/core/RocketMQListener.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mq/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-535">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/util/SerializeUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -109,20 +246,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/nashorn/TestFile.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/nashorn/nashornJs.js" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/date/Test.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/esb/Test.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Demo02.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Demo01.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Demo03.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Test01.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/json/schema/Test.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/test/Demo04.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/java8/atomic/Demo01.java" />
-        <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/FileReader.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/MultipartFileUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/FileService.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/postman/PostmanUrlEncodedBody.java" />
@@ -160,6 +283,20 @@
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/channel/impl/GenerateSchemaFromRawServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/ability/ParseAbilityList.java" />
         <option value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/service/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/SpringBootTestApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/handle/rocketMq/RocketmqConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/bo/Message.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/springbootmq/handle/rocketmq/RocketmqConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/handle/rocketmq/Message.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/handle/rocketmq/RocketmqConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-rocketmq/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/util/SerializeUtils.java" />
+        <option value="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Data.java" />
+        <option value="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/RocketmqConsumer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Consumer.java" />
       </list>
     </option>
   </component>
@@ -195,9 +332,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="957" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,25 +353,25 @@
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -243,7 +379,7 @@
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -252,7 +388,71 @@
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -262,13 +462,52 @@
             <path>
               <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-boot-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yao" type="462c0819:PsiDirectoryNode" />
-              <item name="springboottest" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+              <item name="rocketmq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yao" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-esb-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-esb-test" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-rocketmq" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +534,7 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -307,28 +546,29 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.18026316" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.yao" />
+      <recent name="com.yao.springbootmq" />
       <recent name="com.yao.springbootwebserviceclient" />
       <recent name="com.yao.springbootoauth2server" />
       <recent name="com.yao.springboottest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yao.handle.util" />
       <recent name="com.yao.springboottest.excel" />
       <recent name="com.yao.handle.channel.impl" />
       <recent name="com.yao.handle.channel" />
       <recent name="com.yao.postman" />
-      <recent name="com.yao.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao" />
       <recent name="$PROJECT_DIR$/spring-boot-r2dbc-h2/src/main/java/com/yao/springbootr2dbch2" />
       <recent name="$PROJECT_DIR$/spring-boot-r2dbc-h2/src/main/resources/db" />
       <recent name="$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/json/util" />
-      <recent name="$PROJECT_DIR$/spring-boot-webservice-client/src/main/java/com/yao/springbootwebserviceclient" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -367,7 +607,20 @@
     </option>
     <option name="contentProportion" value="0.24223602" />
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootTestApplication">
+  <component name="RunManager" selected="Application.Consumer">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yao.handle.rocketmq.Consumer" />
+      <module name="spring-boot-rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.handle.rocketmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.java8.test.Demo04" />
       <module name="spring-boot-test" />
@@ -387,19 +640,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yao.springboottest.excel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.springboottest.json.schema.Test" />
-      <module name="spring-boot-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.springboottest.json.schema.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,7 +717,7 @@
     </configuration>
     <configuration name="SpringBootMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-mq" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springbootmq.SpringBootMqApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.SpringBootMqApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -520,6 +760,13 @@
     <configuration name="SpringBootR2dbcH2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-r2dbc-h2" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.springbootr2dbch2.SpringBootR2dbcH2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRocketmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-rocketmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.SpringBootRocketmqApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -567,7 +814,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Demo04" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test2" />
@@ -591,14 +837,16 @@
       <item itemvalue="Spring Boot.SpringBootMqApplication" />
       <item itemvalue="Spring Boot.SpringBootR2dbcH2Application" />
       <item itemvalue="Spring Boot.SpringBootPostmanApplication" />
+      <item itemvalue="Spring Boot.SpringBootRocketmqApplication" />
+      <item itemvalue="Application.Consumer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Test2" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Demo04" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -776,7 +1024,8 @@
       <workItem from="1583640891811" duration="477000" />
       <workItem from="1583720799060" duration="820000" />
       <workItem from="1583894616622" duration="1282000" />
-      <workItem from="1583908099914" duration="761000" />
+      <workItem from="1583908099914" duration="1733000" />
+      <workItem from="1583976809897" duration="8386000" />
     </task>
     <task id="LOCAL-00001" summary="新建测试项目">
       <created>1553739266155</created>
@@ -939,7 +1188,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583482533760</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="解析schema文件">
+      <created>1583913343239</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1583913343239</updated>
+    </task>
+    <task id="LOCAL-00025" summary="解析schema文件">
+      <created>1583913450533</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583913450533</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -975,7 +1238,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="548912000" />
+    <option name="totallyTimeSpent" value="558270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -989,7 +1252,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.32356533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848944" visible="true" weight="0.32722834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -999,9 +1262,10 @@
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" sideWeight="0.50151056" side_tool="true" weight="0.30868167" />
       <window_info id="Alibaba Cloud Explorer" order="9" weight="0.3294621" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3291536" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32706374" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.31034482" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.31034482" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37513062" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1018,7 +1282,7 @@
       <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4993895" weight="0.32497388" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="17" />
       <window_info anchor="bottom" id="Docker" order="18" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.496337" visible="true" weight="0.3719958" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.496337" weight="0.36259145" />
       <window_info anchor="bottom" id="Thumbnails" order="20" weight="0.32959184" />
       <window_info anchor="bottom" id="JProfiler" order="21" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="22" weight="0.32879582" />
@@ -1215,149 +1479,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17061">
-          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="93" selection-start-line="93" selection-end-line="99" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar!/org/apache/poi/ss/usermodel/Cell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar!/org/apache/poi/ss/usermodel/Workbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/poi/poi/4.0.1/poi-4.0.1.jar!/org/apache/poi/ss/usermodel/Sheet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanUrlEncodedBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanFormDataBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/PostmanRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/handle/postman/ResponseBodyMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="132" column="37" lean-forward="true" selection-start-line="130" selection-start-column="12" selection-end-line="132" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="204" column="8" selection-start-line="204" selection-start-column="8" selection-end-line="210" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/excel/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="114" column="28" lean-forward="true" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar!/org/springframework/aop/support/DelegatingIntroductionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -1555,12 +1676,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-postman/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="63" column="19" selection-start-line="42" selection-start-column="8" selection-end-line="63" selection-end-column="19" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-postman/src/main/java/com/yao/util/SchemaUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1645,8 +1766,169 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-test/src/main/java/com/yao/springboottest/SpringBootTestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/config/RabbitMQConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/SpringBootMqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/src/main/java/com/yao/handle/RabbbitMqConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/SpringBootRocketmqApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/com/alibaba/fastjson/1.2.51/fastjson-1.2.51.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-535">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/rocketmq/rocketmq-spring-boot/2.0.3/rocketmq-spring-boot-2.0.3.jar!/org/apache/rocketmq/spring/core/RocketMQListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/util/SerializeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/RocketmqConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/local/app/enviroment/repository/org/apache/rocketmq/rocketmq-client/4.5.1/rocketmq-client-4.5.1.jar!/org/apache/rocketmq/client/consumer/DefaultMQPushConsumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java/com/yao/handle/rocketmq/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package com.yao.springbootmq.config;
+package com.yao.config;
 
 
 import org.springframework.amqp.core.Queue;
