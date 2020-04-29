@@ -25,7 +25,7 @@ import java.util.Map;
 @Slf4j
 public class DubboServiceImpl implements DubboServcie {
     @Override
-    public Baby doService(String name) {
+    public Baby doService(Map name) {
         log.info("调用名称:" + name);
         Map map = new HashMap<>();
         map.put("123", "234");

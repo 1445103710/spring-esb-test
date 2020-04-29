@@ -4,6 +4,8 @@ import com.alibaba.fastjson.annotation.JSONField;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author yaoyao
  * @version 1.0
@@ -12,7 +14,7 @@ import lombok.Data;
  * @see com.yao.po
  */
 @Data
-public class Person {
+public class Person implements Serializable {
 
     @JSONField(name="ATTRS")
     String ATTRS;

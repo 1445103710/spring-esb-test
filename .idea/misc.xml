@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/spring-boot-r2dbc-h2/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-postman/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-scheduled/pom.xml" />
       </list>
     </option>
   </component>

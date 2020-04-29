@@ -14,16 +14,17 @@
         <module name="spring-boot-webflux" />
         <module name="spring-boot-oauth2" />
         <module name="spring-boot-rocketmq" />
-        <module name="spring-boot-mq" />
+        <module name="spring-boot-dubbo-api" />
         <module name="spring-boot-oauth2-server" />
         <module name="spring-boot-r2dbc-h2" />
         <module name="spring-boot-cas" />
         <module name="spring-boot-webflux-model" />
         <module name="spring-boot-oauth2-webflux-server" />
-        <module name="spring-boot-dubbo-api" />
+        <module name="spring-boot-mq" />
         <module name="spring-boot-postman" />
         <module name="spring-boot-webservice" />
         <module name="spring-boot-zookeeper" />
+        <module name="spring-boot-scheduled" />
         <module name="spring-boot-dubbo-provide" />
         <module name="spring-boot-oauth2-grant-authorization" />
         <module name="spring-boot-classload" />
@@ -47,6 +48,7 @@
       <module name="spring-boot-postman" options="-parameters" />
       <module name="spring-boot-r2dbc-h2" options="-parameters" />
       <module name="spring-boot-rocketmq" options="-parameters" />
+      <module name="spring-boot-scheduled" options="-parameters" />
       <module name="spring-boot-test" options="-parameters" />
       <module name="spring-boot-valid" options="-parameters" />
       <module name="spring-boot-webflux" options="-parameters" />
