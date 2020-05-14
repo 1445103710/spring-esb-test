@@ -25,6 +25,7 @@
         <module name="spring-boot-webservice" />
         <module name="spring-boot-zookeeper" />
         <module name="spring-boot-scheduled" />
+        <module name="spring-boot-excel" />
         <module name="spring-boot-dubbo-provide" />
         <module name="spring-boot-oauth2-grant-authorization" />
         <module name="spring-boot-classload" />
@@ -40,6 +41,7 @@
       <module name="spring-boot-command" options="-parameters" />
       <module name="spring-boot-dubbo-customer" options="-parameters" />
       <module name="spring-boot-dubbo-provide" options="-parameters" />
+      <module name="spring-boot-excel" options="-parameters" />
       <module name="spring-boot-mq" options="-parameters" />
       <module name="spring-boot-oauth2-grant-authorization" options="-parameters" />
       <module name="spring-boot-oauth2-sdk-webflux-server" options="-parameters" />

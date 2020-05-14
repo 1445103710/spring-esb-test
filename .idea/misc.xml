@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/spring-boot-postman/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-rocketmq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-scheduled/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-excel/pom.xml" />
       </list>
     </option>
   </component>
