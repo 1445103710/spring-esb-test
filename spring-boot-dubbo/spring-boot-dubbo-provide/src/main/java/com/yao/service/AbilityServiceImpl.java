@@ -1,10 +1,8 @@
 package com.yao.service;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.yao.po.Baby;
 import com.yao.po.Person;
-import com.yao.po.Test;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Service;
 
@@ -26,10 +24,10 @@ import java.util.Map;
  */
 @Service(version = "1", group = "yaoyao")
 @Slf4j
-public class DubboServiceImpl implements DubboServcie {
+public class AbilityServiceImpl<T> implements AblityService<T> {
     @Override
-    public Baby doService(Map name) {
-        log.info("调用名称:" + name);
+    public Baby doService(T name) {
+        log.info("调用名称22222:" + name);
         System.out.println(JSON.toJSONString(name));
         Map map = new HashMap<>();
         map.put("123", "234");

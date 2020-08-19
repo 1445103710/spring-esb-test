@@ -290,7 +290,7 @@ public class ExcelUtil {
                             celly.setCellType(CellType.STRING);
                             break;
                         case ERROR:
-                            System.out.println("+++");
+                            System.out.println("erreo");
                             celly.setCellValue("");
                             break;
                         case BLANK:

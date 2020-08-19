@@ -1,6 +1,6 @@
 package com.yao.springboottest.controller;
 
-import com.sun.tools.xjc.reader.xmlschema.bindinfo.BIConversion;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.*;
 
@@ -8,8 +8,6 @@ import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author yaoyao
@@ -27,15 +25,47 @@ public class TestController {
     AtomicInteger atomicInteger = new AtomicInteger(0);
 
     @RequestMapping("/modle")
-    public Map getSomeThing(@RequestBody String body, @RequestHeader HttpHeaders headers){
-        log.info(body);
+    public Map getSomeThing(@RequestBody Test2 body, @RequestHeader HttpHeaders headers){
+        log.info(body.toString());
+        log.info(body.toString());
+        log.info(headers.toString());
+
+        try {
+            Thread.sleep(40000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        log.info("休息10秒钟");
+        Map map = new HashMap();
+        map.put("key","vlue");
+        map.put("bay","vlue");
+        map.put("ask",body.toString());
+        atomicInteger.incrementAndGet();
+        System.out.println(atomicInteger.get());
+        return map;
+    }
+    @RequestMapping("/modle2")
+    public Map getSomeThing2(@RequestBody Test2 body, @RequestHeader HttpHeaders headers){
+        log.info(body.toString());
+        log.info(body.toString());
         log.info(headers.toString());
         Map map = new HashMap();
         map.put("key","vlue");
         map.put("bay","vlue");
-        map.put("ask",body);
-        atomicInteger.incrementAndGet();
-        System.out.println(atomicInteger.get());
+        map.put("ask",body.toString());
+        log.info("结束请求modle2");
+        return map;
+    }
+    @RequestMapping("/modle3")
+    public Map getSomeThing3(@RequestBody String body, @RequestHeader HttpHeaders headers,@RequestParam(value = "test",required = false) String test){
+        log.info(body);
+        log.info(headers.toString());
+        log.info("#########"+test);
+        Map map = new HashMap();
+        map.put("key","vlue");
+        map.put("bay","vlue");
+        map.put("ask",body.toString());
+        log.info("结束请求modle3");
         return map;
     }
 
@@ -53,6 +83,18 @@ public class TestController {
 
     @RequestMapping("/dol")
     public String dol(@RequestBody String body, @RequestHeader HttpHeaders headers, @RequestParam(value = "ceshi") String ceshi,@RequestParam(value = "niubi",required = false) String niubi) throws InterruptedException {
+        log.info(headers.toString());
+//        Thread.sleep(10000);
+//        log.info("休息10秒钟");
+        System.out.println("收到参数:"+ceshi);
+        System.out.println("收到的报文:"+body);
+        String s = LocalTime.now().toString();
+        return s;
+    }
+
+
+    @RequestMapping("/xxl")
+    public String xxl(@RequestHeader HttpHeaders headers, @RequestParam(value = "ceshi") String ceshi,@RequestParam(value = "niubi",required = false) String niubi) throws InterruptedException {
         log.info(headers.toString());
 //        Thread.sleep(10000);
 //        log.info("休息10秒钟");

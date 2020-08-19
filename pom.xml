@@ -14,6 +14,8 @@
         <module>spring-boot-oauth2</module>
         <module>spring-boot-webservice</module>
         <module>spring-boot-webservice-client</module>
+        <module>netty-study</module>
+        <module>kafka-study</module>
     </modules>
 
 

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-boot-webservice/spring-boo-webservice.iml" filepath="$PROJECT_DIR$/spring-boot-webservice/spring-boo-webservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-study/spring-boot-kafka-server/spring-boot-kafka-server.iml" filepath="$PROJECT_DIR$/kafka-study/spring-boot-kafka-server/spring-boot-kafka-server.iml" />
     </modules>
   </component>
 </project>

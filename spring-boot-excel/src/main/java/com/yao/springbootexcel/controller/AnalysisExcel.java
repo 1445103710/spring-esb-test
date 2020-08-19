@@ -53,7 +53,7 @@ public class AnalysisExcel {
             InputStream inputStream = file.getInputStream();
             long size = file.getSize();
             Workbook workbook = ExcelUtil.getWorkbook(1, inputStream);
-            Sheet sheet1 = workbook.getSheet("人员信息");
+            Sheet sheet1 = workbook.getSheet("公众线");
             if (StringUtils.isEmpty(names)) {
                 names = "人员信息,人员信息+发展人编码,人员信息+工号";
             }
@@ -69,8 +69,9 @@ public class AnalysisExcel {
 //            int lastRowNum2 = sheet2.getLastRowNum();
 //            int lastRowNum3 = sheet3.getLastRowNum();
 
-            for (int i = 1; i <= lastRowNum1; i++) {
+            for (int i = 1; i < lastRowNum1; i++) {
                 String name = sheet1.getRow(i).getCell(4).getStringCellValue();
+                System.out.println(i+":"+name);
                 set.add(name);
             }
             set.forEach((a) -> {
@@ -90,10 +91,16 @@ public class AnalysisExcel {
                         sheet.createFreezePane( 0, 1, 0, 1 );
                         z++;
                         for (int i = 0; i < lastCellNum; i++) {
-                            if ("大区/县分".equals(row.getCell(i).getStringCellValue())) {
-                                for (int j = 1; j <= lastRowNum; j++) {
+                            if ("营服".equals(row.getCell(i).getStringCellValue())) {
+                                for (int j = 1; j < lastRowNum; j++) {
                                     if (a.equals(sheetx.getRow(j).getCell(i).getStringCellValue())) {
-                                        ExcelUtil.copyRows(sheetx, sheet, j, z);
+                                        try {
+                                            ExcelUtil.copyRows(sheetx, sheet, j, z);
+
+                                        }catch (Exception e){
+                                            e.printStackTrace();
+                                            System.out.println("xxxxxxxxxxxxxxxxxxxxxxxx");
+                                        }
                                         z++;
                                     }
                                 }
@@ -137,6 +144,7 @@ public class AnalysisExcel {
             map.put("fileName", size);
             return map;
         } catch (Exception e) {
+            e.printStackTrace();
             map.put("code", "1");
             map.put("msg", "操作失误");
             return map;
