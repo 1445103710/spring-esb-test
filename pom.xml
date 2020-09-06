@@ -16,6 +16,7 @@
         <module>spring-boot-webservice-client</module>
         <module>netty-study</module>
         <module>kafka-study</module>
+        <module>javaFx-jfoenix</module>
     </modules>
 
 

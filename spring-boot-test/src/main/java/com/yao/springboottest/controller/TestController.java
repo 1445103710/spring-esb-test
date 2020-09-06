@@ -1,9 +1,11 @@
 package com.yao.springboottest.controller;
 
+import com.yao.springboottest.mail.MailTool;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
@@ -101,6 +103,14 @@ public class TestController {
         System.out.println("收到参数:"+ceshi);
         System.out.println("收到参数:"+niubi);
         String s = LocalTime.now().toString();
+        return s;
+    }
+
+    @GetMapping("/mail")
+    public String xxxxxl() throws InterruptedException, IOException {
+        System.out.println("开始发送");
+        String s = LocalTime.now().toString();
+        MailTool.mail();
         return s;
     }
 }

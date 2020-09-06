@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/javaFx-jfoenix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-study/spring-boot-kafka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-study/spring-boot-kafka-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-cas" charset="UTF-8" />
