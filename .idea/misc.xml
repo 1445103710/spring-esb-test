@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/spring-boot-excel/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-study/spring-boot-kafka-client/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-study/spring-boot-kafka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/pom.xml" />
       </list>
     </option>
   </component>

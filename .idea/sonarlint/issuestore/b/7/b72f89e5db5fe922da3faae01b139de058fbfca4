@@ -1,0 +1,19 @@
+
+K
+java:S3740¦"/Provide the parametrized type for this generic.(òŠ©ôýÿÿÿÿ
+a	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(»éÇÙúÿÿÿÿ
+U
+java:S1155‡">Use isEmpty() to check whether the collection is empty or not.(©Þêú
+]
+java:S1858["H"actor" is already a string, there's no need to call "toString()" on it.(•Èµ{
+[
+java:S1124s"EReorder the modifiers to comply with the Java Language Specification.(ŠàÅ¦
+n
+java:S1602|"SRemove useless curly braces around statement and then remove useless return keyword(±æ¿ƒùÿÿÿÿ
+C
+java:S3011“",This accessibility update should be removed.(Ð¥ò½
+H
+java:S3011”",This accessibility bypass should be removed.(ÎÄ•Ôÿÿÿÿÿ
+C
+java:S3011—",This accessibility update should be removed.(âŽ·Ò
+V	java:S125/"<This block of commented-out lines of code should be removed.(æ°Å¯ûÿÿÿÿ

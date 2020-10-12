@@ -1,0 +1,18 @@
+
+X
+java:S2184å"BCast one of the operands of this addition operation to a "double".(É´æ@
+d
+java:S3252Ê"HUse static access with "javafx.scene.layout.Region" for "USE_PREF_SIZE".(Þ–¦ ûÿÿÿÿ
+d
+java:S3252Ê"HUse static access with "javafx.scene.layout.Region" for "USE_PREF_SIZE".(Þ–¦ ûÿÿÿÿ
+`	java:S112<"FDefine and throw a dedicated exception instead of using a generic one.(ØÛˆøÿÿÿÿ
+?	java:S108´")Either remove or fill this block of code.(”ý¾
+7
+java:S11705"!Make this final field static too.(“°ÒÐ
+O
+java:S1611H"4Remove the parentheses around the "action" parameter(‘øÔäùÿÿÿÿ
+‡
+java:S1130<"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ØÛˆøÿÿÿÿ
+W	java:S110¸"<This class has 6 parents which is greater than 5 authorized.(¼íÝÒýÿÿÿÿ
+X
+java:S2184å"BCast one of the operands of this addition operation to a "double".(É´æ@

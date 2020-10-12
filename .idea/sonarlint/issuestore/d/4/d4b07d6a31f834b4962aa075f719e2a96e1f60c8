@@ -1,0 +1,41 @@
+
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Å¨ôşÿÿÿÿ
+V	java:S125s"<This block of commented-out lines of code should be removed.(àåª—ûÿÿÿÿ
+E
+java:S3740n"/Provide the parametrized type for this generic.(…™µâ
+P
+java:S1141F"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+V	java:S125H"<This block of commented-out lines of code should be removed.(ÌÙö¢ÿÿÿÿÿ
+P
+java:S1141&"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(›ËÓ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(½ğ÷¾
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(íâ†Ïùÿÿÿÿ
+\
+java:S2147‰"ECombine this catch with the one at line 135, which has the same body.(ï­£Ä
+Q	java:S1258"<This block of commented-out lines of code should be removed.(ü¸‘è
+V
+java:S1128"ARemove this unused import 'org.springframework.util.StringUtils'.(Ğôÿ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(Ğÿ¡¥ÿÿÿÿÿ
+V	java:S125<"<This block of commented-out lines of code should be removed.(àåª—ûÿÿÿÿ
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(ª¶¡å
+V	java:S125h"<This block of commented-out lines of code should be removed.(¢îÙœşÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(óëÉúÿÿÿÿ
+V	java:S1256"<This block of commented-out lines of code should be removed.(Ô†¹›ıÿÿÿÿ
+E
+java:S37407"/Provide the parametrized type for this generic.(…™µâ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 81 to the 15 allowed.(Çµí‘
+V	java:S125Z"<This block of commented-out lines of code should be removed.(Ô†£ûÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(¦å§ûÿÿÿÿÿ
+V	java:S1253"<This block of commented-out lines of code should be removed.(á”­úÿÿÿÿ
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(’Šü
+N	java:S106j"9Replace this use of System.out or System.err by a logger.(È–§Ò
+V	java:S125'"<This block of commented-out lines of code should be removed.(í§Óøÿÿÿÿ
+Q	java:S125C"<This block of commented-out lines of code should be removed.(«‚â
+V	java:S125K"<This block of commented-out lines of code should be removed.(Ô†£ûÿÿÿÿ
+V	java:S125m"<This block of commented-out lines of code should be removed.(Ô†¹›ıÿÿÿÿ
+Q	java:S125o"<This block of commented-out lines of code should be removed.(ü¸‘è

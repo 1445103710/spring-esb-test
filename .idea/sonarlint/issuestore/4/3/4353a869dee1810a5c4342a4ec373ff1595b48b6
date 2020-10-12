@@ -1,0 +1,57 @@
+
+I
+java:S1068"5Remove this unused "PROPERTIES_CONFIG" private field.(¾òæù
+f
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¥ƒÿa8í…ÈóÆ.
+Z
+java:S3252"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(°‚º…
+S
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¥ƒÿa8í…ÈóÆ.
+l
+java:S3008"SRename this field "PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž¦ŒÖøÿÿÿÿ
+p
+java:S3008"\Rename this field "PROPERTIES_CONFIG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾òæù
+E
+java:S1444"1Make this "public static DOMAIN_NAME" field final(°†Åî
+f
+java:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 4 times.(ÀŽŽØùÿÿÿÿ8í…ÈóÆ.
+F
+java:S1135"2Complete the task associated to this TODO comment.(ž›ËÓ
+Y
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ÀŽŽØùÿÿÿÿ8í…ÈóÆ.
+O	java:S125"<This block of commented-out lines of code should be removed.(„ù†ž
+T	java:S125"<This block of commented-out lines of code should be removed.(–¼’ˆûÿÿÿÿ
+l
+java:S3008"SRename this field "USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯çÌãýÿÿÿÿ
+e
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(þºâûÿÿÿÿ
+R
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(þºâûÿÿÿÿ
+a
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ëªœàøÿÿÿÿ
+j
+java:S3008"VRename this field "DOMAIN_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°†Åî
+[	java:S125"<This block of commented-out lines of code should be removed.(øÔñ–ýÿÿÿÿ8í…ÈóÆ.
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+g
+java:S3008"SRename this field "HOSTNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÝŸ™
+a
+java:S3252"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(°‚º…8í…ÈóÆ.
+l
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÀŽŽØùÿÿÿÿ8í…ÈóÆ.
+>
+java:S1068"*Remove this unused "logger" private field.(•®„”
+M
+java:S1068"9Remove this unused "ERRORMSG_RECIPIENTCCS" private field.(¸Ó“Ò
+G
+java:S1068".Remove this unused "properties" private field.(§óâèþÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(øÔñ–ýÿÿÿÿ
+X	java:S106"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ8í…ÈóÆ.
+`
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¹úš
+k
+java:S1104"WMake DOMAIN_NAME a static final constant or non-public and provide accessors if needed.(°†Åî
+M
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(¹úš
+t
+java:S3008"`Rename this field "ERRORMSG_RECIPIENTCCS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ó“Ò

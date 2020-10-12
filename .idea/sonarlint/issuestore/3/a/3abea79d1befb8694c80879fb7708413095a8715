@@ -1,0 +1,16 @@
+
+m
+java:S1128	"RRemove this unused import 'io.datafx.controller.flow.context.FXMLViewFlowContext'.(ºéˆ‹şÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'javafx.stage.Modality'.(£†üĞüÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'javafx.stage.Stage'.(æÄ¸²úÿÿÿÿ
+P
+java:S1128":Remove this unused import 'javafx.scene.layout.StackPane'.(™÷èò
+i
+java:S1128
+"NRemove this unused import 'io.datafx.controller.flow.context.ViewFlowContext'.(ƒœ»øÿÿÿÿ
+R
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ
+b
+java:S1128"LRemove this unused import 'com.jfoenix.controls.JFXDialog.DialogTransition'.(„¡¬Ö

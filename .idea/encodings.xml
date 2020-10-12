@@ -2,28 +2,55 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true">
     <file url="file://$PROJECT_DIR$/javaFx-jfoenix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaFx-jfoenix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/javaFx-jfoenix/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-study/spring-boot-kafka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-study/spring-boot-kafka-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-study/spring-boot-kafka-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-study/spring-boot-kafka-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-cas" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-cas/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-classload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-classload/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-command" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-command/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-customer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo-provide/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-excel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-excel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-mq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-grant-authorization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-sdk-webflux-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-sdk-webflux-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-oauth2/spring-boot-oauth2-webflux-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-postman" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-postman/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-r2dbc-h2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-r2dbc-h2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-rocketmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rocketmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-scheduled" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-scheduled/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-valid" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-valid/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-webflux-model/spring-boot-webflux/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-webservice" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-webservice-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-webservice-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-webservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-websocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-zookeeper/src/main/java" charset="UTF-8" />
   </component>
 </project>

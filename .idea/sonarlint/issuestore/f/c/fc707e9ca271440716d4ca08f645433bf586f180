@@ -1,0 +1,6 @@
+
+c
+java:S1128"ARemove this unused import 'fx.gui.uicomponents.ButtonController'.(±¦ëËúÿÿÿÿ8Ï’ËŸÆ.
+`	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(ØÛˆøÿÿÿÿ
+v
+java:S14505"[Remove the "toolbarPopup" field and declare it as a local variable in the relevant methods.(¸Ø¼ÿÿÿÿÿ

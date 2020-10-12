@@ -1,0 +1,16 @@
+
+o	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡²éÔøÿÿÿÿ8ÅƒÉ.
+H
+java:S1135"2Complete the task associated to this TODO comment.(›ËÓ
+]	java:S125]"<This block of commented-out lines of code should be removed.(æÆ÷ÿÿÿÿÿ8ÅƒÉ.
+‰
+java:S1130j"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ğÒÂÇ8“ÿ’É.
+w
+java:S3008!"URename this field "SessionSet" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤â»‘úÿÿÿÿ8ÅƒÉ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(±‹Ä8ÅƒÉ.
+{
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤â»‘úÿÿÿÿ8ÅƒÉ.
+i	java:S100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Àãg8ÅƒÉ.
+j	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÒÂÇ8ÅƒÉ.
+ˆ
+java:S1130x"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(©Àãg8“ÿ’É.

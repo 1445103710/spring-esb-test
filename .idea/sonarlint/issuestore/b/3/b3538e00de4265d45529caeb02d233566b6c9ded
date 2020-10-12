@@ -1,0 +1,52 @@
+
+t
+java:S1488]"YImmediately return this expression instead of assigning it to the temporary variable "s".(¬¼–¯ıÿÿÿÿ
+\
+java:S2142%"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+J
+java:S3740"/Provide the parametrized type for this generic.(Ù±«Úşÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(æÄíàşÿÿÿÿ
+J
+java:S3740B"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(Ø¢½ışÿÿÿÿ
+Q	java:S125f"<This block of commented-out lines of code should be removed.(ùí†Œ
+Q
+java:S3740P"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ8ÍÉ†õË.
+]
+java:S1858E"G"body" is already a string, there's no need to call "toString()" on it.(ÙğèÄ
+Q	java:S125r"<This block of commented-out lines of code should be removed.(ùí†Œ
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(ºÇÈ±ùÿÿÿÿ
+g
+java:S1192A"JDefine a constant instead of duplicating this literal "#########" 3 times.(³ïÉˆ8ú¨‰õË.
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(è„¦
+E
+java:S37402"/Provide the parametrized type for this generic.(´ÇÀÉ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(½æ÷Ÿşÿÿÿÿ
+d
+java:S1858S"G"body" is already a string, there's no need to call "toString()" on it.(ÙğèÄ8ÍÉ†õË.
+J
+java:S37406"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+E
+java:S3740>"/Provide the parametrized type for this generic.(“Ò
+
+java:S1130{"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ÚİŠŒ
+J
+java:S3740)"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+L
+java:S3740K"/Provide the parametrized type for this generic.(£äõŸ8ÍÉ†õË.
+o
+java:S1488j"YImmediately return this expression instead of assigning it to the temporary variable "s".(û•äğ
+Q
+java:S3740P"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ8ÍÉ†õË.
+J
+java:S3740B"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(æÄíàşÿÿÿÿ
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(ÁÓ‘†
+o
+java:S1488v"YImmediately return this expression instead of assigning it to the temporary variable "s".(û•äğ
+J
+java:S3740)"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+J
+java:S37406"/Provide the parametrized type for this generic.(™Ş­Ôşÿÿÿÿ
+i
+java:S1192h"NDefine a constant instead of duplicating this literal "æ”¶åˆ°å‚æ•°:" 3 times.(æÄíàşÿÿÿÿ

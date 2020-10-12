@@ -2,40 +2,42 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty-server" />
-        <module name="spring-boot-webflux" />
-        <module name="spring-boot-dubbo-provide" />
-        <module name="spring-boot-command" />
-        <module name="spring-boot-webservice" />
-        <module name="spring-boot-dubbo-api" />
-        <module name="spring-boot-oauth2-server" />
-        <module name="javaFx-jfoenix" />
-        <module name="spring-boot-mq" />
-        <module name="netty-client" />
-        <module name="spring-boot-kafka-consumer" />
-        <module name="spring-boot-oauth2-webflux-server" />
         <module name="spring-boot-r2dbc-h2" />
-        <module name="spring-boot-webservice-client" />
-        <module name="spring-boot-cas" />
-        <module name="spring-boot-oauth2-sdk-webflux-server" />
-        <module name="spring-boot-scheduled" />
-        <module name="kafka-study" />
-        <module name="spring-boot-zookeeper" />
-        <module name="spring-boot-oauth2-grant-authorization" />
-        <module name="spring-boot-kafka-client" />
-        <module name="spring-boot-oauth2" />
-        <module name="spring-boot-dubbo-customer" />
-        <module name="spring-boot-rocketmq" />
-        <module name="spring-boot-classload" />
-        <module name="spring-boot-test" />
+        <module name="spring-boot-dubbo-api" />
+        <module name="netty-client" />
         <module name="spring-boot-excel" />
+        <module name="spring-boot-oauth2-server" />
+        <module name="spring-boot-webflux" />
+        <module name="netty-server" />
+        <module name="spring-boot-command" />
+        <module name="spring-boot-oauth2-webflux-server" />
+        <module name="spring-boot-webservice-client" />
+        <module name="spring-boot-dubbo-provide" />
+        <module name="spring-boot-dubbo-customer" />
+        <module name="spring-boot-zookeeper" />
         <module name="spring-boot-valid" />
+        <module name="spring-boot-test" />
+        <module name="spring-boot-oauth2" />
+        <module name="javaFx-jfoenix" />
+        <module name="spring-boot-rocketmq" />
+        <module name="spring-boot-cas" />
+        <module name="spring-boot-oauth2-grant-authorization" />
+        <module name="spring-boot-oauth2-sdk-webflux-server" />
+        <module name="spring-boot-kafka-client" />
+        <module name="spring-boot-classload" />
         <module name="spring-boot-postman" />
+        <module name="spring-boot-mq" />
+        <module name="kafka-study" />
         <module name="spring-boot-webflux-model" />
+        <module name="spring-boot-websocket" />
+        <module name="spring-boot-webservice" />
+        <module name="spring-boot-kafka-consumer" />
+        <module name="spring-boot-scheduled" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -65,6 +67,7 @@
       <module name="spring-boot-webflux" options="-parameters" />
       <module name="spring-boot-webservice" options="-parameters" />
       <module name="spring-boot-webservice-client" options="-parameters" />
+      <module name="spring-boot-websocket" options="-parameters" />
       <module name="spring-boot-zookeeper" options="-parameters" />
     </option>
   </component>

@@ -24,6 +24,9 @@ public class SideMenuController {
     @FXMLViewFlowContext
     private ViewFlowContext context;
     @FXML
+    @ActionTrigger("sendmail")
+    private Label sendmail;
+    @FXML
     @ActionTrigger("buttons")
     private Label button;
     @FXML
@@ -113,6 +116,7 @@ public class SideMenuController {
             }).start();
         });
         Flow contentFlow = (Flow) context.getRegisteredObject("ContentFlow");
+        bindNodeToController(sendmail, SendMailController.class, contentFlow, contentFlowHandler);
         bindNodeToController(button, ButtonController.class, contentFlow, contentFlowHandler);
         bindNodeToController(checkbox, CheckboxController.class, contentFlow, contentFlowHandler);
         bindNodeToController(combobox, ComboBoxController.class, contentFlow, contentFlowHandler);

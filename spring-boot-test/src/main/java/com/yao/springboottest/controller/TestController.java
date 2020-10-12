@@ -71,6 +71,19 @@ public class TestController {
         return map;
     }
 
+    @RequestMapping("/modle4")
+    public Map getSomeThing4(@RequestBody String body, @RequestHeader HttpHeaders headers,@RequestParam(value = "jjj",required = false) String test,@RequestParam(value = "bbb",required = false) String test1){
+        log.info(body);
+        log.info(headers.toString());
+        log.info("#########"+test);
+        log.info("#########"+test1);
+        Map map = new HashMap();
+        map.put("key",test);
+        map.put("bay",test1);
+        map.put("ask",body.toString());
+        log.info("结束请求modle3");
+        return map;
+    }
 
     @RequestMapping("/oauth2")
     public String oauth2(@RequestBody String body, @RequestHeader HttpHeaders headers){

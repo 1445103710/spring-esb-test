@@ -1,0 +1,7 @@
+
+Q	java:S110"<This class has 6 parents which is greater than 5 authorized.(£‡Ê¤
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ØÛˆøÿÿÿÿ
+B
+java:S3599",Use another way to initialize this instance.(£‡Ê¤
+t
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ

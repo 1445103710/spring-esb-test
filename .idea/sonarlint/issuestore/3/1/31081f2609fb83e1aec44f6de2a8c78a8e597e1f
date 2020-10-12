@@ -1,0 +1,37 @@
+
+D
+java:S3740"/Provide the parametrized type for this generic.(è„ÍF
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(êùÒµ
+Q	java:S125a"<This block of commented-out lines of code should be removed.(³ÑÃß
+P	java:S125N"<This block of commented-out lines of code should be removed.(˜²Àl
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(„§Öˆþÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(Öû³œ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ô)
+@
+java:S1481"+Remove this unused "sheet1" local variable.(Û…
+V	java:S125g"<This block of commented-out lines of code should be removed.(‡¿ó¾ûÿÿÿÿ
+F
+java:S1481"+Remove this unused "sheet3" local variable.(ˆ”†£ùÿÿÿÿ
+M	java:S106l"9Replace this use of System.out or System.err by a logger.(¯ú›x
+S	java:S106Y"9Replace this use of System.out or System.err by a logger.(´¾©ðýÿÿÿÿ
+V	java:S125T"<This block of commented-out lines of code should be removed.(‡¿ó¾ûÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(ž›ËÓ
+J
+java:S3740$"/Provide the parametrized type for this generic.(ŠÄÜ—ûÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+U
+java:S1854":Remove this useless assignment to local variable "sheet3".(ˆ”†£ùÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Çµí‘
+V	java:S125t"<This block of commented-out lines of code should be removed.(¦—åôüÿÿÿÿ
+V	java:S125z"<This block of commented-out lines of code should be removed.(‡¿ó¾ûÿÿÿÿ
+O
+java:S1854":Remove this useless assignment to local variable "sheet1".(Û…
+W
+java:S10756"ARefactor your code to get this URI from a customizable parameter.(»ŠÀ½
+J
+java:S3740-"/Provide the parametrized type for this generic.(±½®üÿÿÿÿ
+E
+java:S16115"/Remove the parentheses around the "k" parameter(š»

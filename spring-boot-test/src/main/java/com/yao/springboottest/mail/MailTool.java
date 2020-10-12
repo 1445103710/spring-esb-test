@@ -82,43 +82,7 @@ public class MailTool {
 
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("F:\\data\\salary\\salary\\remark.txt"));
-        String line = null;
-        StringBuilder builder = new StringBuilder();
-        while ((line = br.readLine()) != null) {
-            builder.append(line + "<BR>");
-        }
-        br.close();
-        builder.append("<BR>");
-
-
-        BufferedReader bl = new BufferedReader(new FileReader("F:\\data\\salary\\salary\\test.txt"));
-        String list = null;
-        while ((list = bl.readLine()) != null) {
-            String[] split = list.split("\\|");
-            String replace = builder.toString().replace("{0}", split[0]);
-
-            ExchangeClient exchangeClient = new ExchangeClient.ExchangeClientBuilder()
-                    .hostname(HOSTNAME)
-                    .exchangeVersion(ExchangeVersion.Exchange2010)
-                    .username(USERNAME)
-                    .password(PASSWORD)
-                    .subject("202007考核结果核对")
-                    .message(replace)
-                    .recipientTo(split[1])
-                    .recipientBcc("1750022757@qq.com")
-                    .attachments("F:\\data\\salary\\salary\\"+split[0]+".xls")
-                    .build();
-            Map<String, Object> stringObjectMap = exchangeClient.sendExchange();
-            String s = "[时间"+ LocalDateTime.now()+"]" +split[0]+"发送"+split[1]+"结果:"+JSONObject.toJSONString(stringObjectMap);
-            System.out.println(s);
-            writeFile("F:\\data\\salary\\salary\\log.txt",s);
-
-        }
-        br.close();
-    }
-    public static void mail() throws IOException {
-        BufferedReader br=new BufferedReader(new InputStreamReader(new FileInputStream("F:\\data\\salary\\salary\\remark.txt"),"UTF-8"));
+        BufferedReader br=new BufferedReader(new InputStreamReader(new FileInputStream("/Users/yaoyao/Desktop/salary/remark.txt"),"UTF-8"));
 //        BufferedReader br = new BufferedReader(new FileReader("F:\\data\\salary\\salary\\remark.txt"));
         String line = null;
         StringBuilder builder = new StringBuilder();
@@ -129,7 +93,7 @@ public class MailTool {
         builder.append("<BR>");
 
 
-        BufferedReader bl = new BufferedReader(new InputStreamReader(new FileInputStream("F:\\data\\salary\\salary\\test.txt"),"UTF-8"));
+        BufferedReader bl = new BufferedReader(new InputStreamReader(new FileInputStream("/Users/yaoyao/Desktop/salary/test.txt"),"UTF-8"));
         String list = null;
         while ((list = bl.readLine()) != null) {
             String[] split = list.split("\\|");
@@ -140,16 +104,53 @@ public class MailTool {
                     .exchangeVersion(ExchangeVersion.Exchange2010)
                     .username(USERNAME)
                     .password(PASSWORD)
-                    .subject("202007考核结果核对")
+                    .subject("（8月数据清单，各营服数据单独下发）请核对， 9月9号17：30前未有问题反馈，视同无异议")
                     .message(replace)
                     .recipientTo(split[1])
                     .recipientBcc("1750022757@qq.com")
-                    .attachments("F:\\data\\salary\\salary\\"+split[0]+".xls")
+                    .attachments("/Users/yaoyao/Desktop/salary/("+split[0]+")202008数据清单.xlsx")
                     .build();
             Map<String, Object> stringObjectMap = exchangeClient.sendExchange();
             String s = "[时间"+ LocalDateTime.now()+"]" +split[0]+"发送"+split[1]+"结果:"+JSONObject.toJSONString(stringObjectMap);
             System.out.println(s);
-            writeFile("F:\\data\\salary\\salary\\log.txt",s);
+            writeFile("/Users/yaoyao/Desktop/salary/log.txt",s);
+
+        }
+        br.close();
+    }
+    public static void mail() throws IOException {
+        BufferedReader br=new BufferedReader(new InputStreamReader(new FileInputStream("E:\\data\\salary\\salary\\remark.txt"),"UTF-8"));
+//        BufferedReader br = new BufferedReader(new FileReader("F:\\data\\salary\\salary\\remark.txt"));
+        String line = null;
+        StringBuilder builder = new StringBuilder();
+        while ((line = br.readLine()) != null) {
+            builder.append(line + "<BR>");
+        }
+        br.close();
+        builder.append("<BR>");
+
+
+        BufferedReader bl = new BufferedReader(new InputStreamReader(new FileInputStream("E:\\data\\salary\\salary\\test.txt"),"UTF-8"));
+        String list = null;
+        while ((list = bl.readLine()) != null) {
+            String[] split = list.split("\\|");
+            String replace = builder.toString().replace("{0}", split[0]);
+
+            ExchangeClient exchangeClient = new ExchangeClient.ExchangeClientBuilder()
+                    .hostname(HOSTNAME)
+                    .exchangeVersion(ExchangeVersion.Exchange2010)
+                    .username(USERNAME)
+                    .password(PASSWORD)
+                    .subject("（8月数据清单，各营服数据单独下发）请核对， 9月9号17：30前未有问题反馈，视同无异议")
+                    .message(replace)
+                    .recipientTo(split[1])
+                    .recipientBcc("1750022757@qq.com")
+                    .attachments("E:\\data\\salary\\salary\\("+split[0]+")202008数据清单.xlsx")
+                    .build();
+            Map<String, Object> stringObjectMap = exchangeClient.sendExchange();
+            String s = "[时间"+ LocalDateTime.now()+"]" +split[0]+"发送"+split[1]+"结果:"+JSONObject.toJSONString(stringObjectMap);
+            System.out.println(s);
+            writeFile("E:\\data\\salary\\salary\\log.txt",s);
 
         }
         br.close();
